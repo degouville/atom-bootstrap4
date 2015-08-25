@@ -1,0 +1,10 @@
+'.text.html, .text.css, .source.js': # Work only with HTML, CSS, JS... Feel free to add some more!
+  'editor':
+    'completions': [
+
+      # Snippets
+      'st-b4'
+      'stc-b4'
+      'html-b4'
+      'cdn-b4'
+    ]
