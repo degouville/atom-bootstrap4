@@ -303,3 +303,9 @@
       $0
     </div>
     """
+
+
+  # Clearfix
+  'Clearfix for Grid system':
+    'prefix': 'colcf'
+    'body': '<div class="clearfix"></div>'
