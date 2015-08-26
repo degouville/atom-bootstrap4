@@ -154,3 +154,53 @@
         </div>
       </div>
     """
+
+
+  # Columns
+  'Column (full option)':
+    'prefix': 'col'
+    'body': """
+    <div class="col-${1:xs|sm|md|lg}-${2:1-12}">
+      $3
+    </div>
+    """
+
+  'Column Extra Small':
+    'prefix': 'col-xs'
+    'body': """
+    <div class="col-xs-${1:1-12}">
+      $0
+    </div>
+    """
+
+  'Column Small':
+    'prefix': 'col-sm'
+    'body': """
+    <div class="col-sm-${1:1-12}">
+      $0
+    </div>
+    """
+
+  'Column Medium':
+    'prefix': 'col-md'
+    'body': """
+    <div class="col-md-${1:1-12}">
+      $0
+    </div>
+    """
+
+  'Column Large':
+    'prefix': 'col-lg'
+    'body': """
+    <div class="col-lg-${1:1-12}">
+      $0
+    </div>
+    """
+
+  'Column Extra Large':
+    'prefix': 'col-xl'
+    'body': """
+    <div class="col-xl-${1:1-12}">
+      $0
+    </div>
+    """
