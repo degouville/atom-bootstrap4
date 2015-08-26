@@ -65,7 +65,7 @@
     """
 
   'Tables Responsive - Bootstrap 4':
-    'prefix': 'tabin'
+    'prefix': 'tabr'
     'body': """
       <div class="table-responsive">
         <table class="table">
