@@ -1,0 +1,9 @@
+'.text.html': # Work only with HTML
+
+
+  # Hidden/Visible
+  'Buttons - Bootstrap 4':
+    'prefix': 'btn'
+    'body': """
+      ...
+    """
