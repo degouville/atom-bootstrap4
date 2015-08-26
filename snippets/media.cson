@@ -1,0 +1,18 @@
+'.text.html': # Work only with HTML
+
+  # TODO: Add Layout Snippets from http://v4-alpha.getbootstrap.com/layout/media-object
+
+  # Media Object
+  'Media - Bootstrap 4':
+    'prefix': 'med'
+    'body': """
+      <div class="media">
+        <a class="media-left" href="#$1">
+          <img class="media-object" data-src="$2" alt="$3">
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading">$4Media heading</h4>
+          $5
+        </div>
+      </div>
+    """
