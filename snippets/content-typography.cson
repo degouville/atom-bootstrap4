@@ -3,7 +3,7 @@
 
   # Content Typography
   'Text Muted - Bootstrap 4':
-    'prefix': 'tem'
+    'prefix': 'texm'
     'body': '<small class="text-muted">$1</small>'
 
   'Display Heading - Bootstrap 4':
@@ -37,7 +37,7 @@
     """
 
   'List Unstyled - Bootstrap 4':
-    'prefix': 'liun'
+    'prefix': 'lisun'
     'body': """
       <ul class="list-unstyled">
         <li>$1</li>
@@ -47,7 +47,7 @@
     """
 
   'List Inline - Bootstrap 4':
-    'prefix': 'liin'
+    'prefix': 'lisin'
     'body': """
       <ul class="list-inline">
         <li>$1</li>
