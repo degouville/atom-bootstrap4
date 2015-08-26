@@ -47,6 +47,24 @@
       </div>
     """
 
+  '3 Responsive Columns grid - Bootstrap 4':
+    'prefix': '3colr'
+    'body': """
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            One of three columns
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            One of three columns
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            One of three columns
+          </div>
+        </div>
+      </div>
+    """
+
   '2 Columns grid - Bootstrap 4':
     'prefix': '2col'
     'body': """
@@ -56,6 +74,21 @@
             One of two columns
           </div>
           <div class="col-md-6">
+            One of two columns
+          </div>
+        </div>
+      </div>
+    """
+
+  '2 Responsive Columns grid - Bootstrap 4':
+    'prefix': '2colr'
+    'body': """
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            One of two columns
+          </div>
+          <div class="col-xs-12 col-md-6">
             One of two columns
           </div>
         </div>
@@ -77,6 +110,27 @@
             One of four columns
           </div>
           <div class="col-md-3">
+            One of four columns
+          </div>
+        </div>
+      </div>
+    """
+
+  '4 Responsive Columns grid - Bootstrap 4':
+    'prefix': '4colr'
+    'body': """
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-md-3">
+            One of four columns
+          </div>
+          <div class="col-xs-6 col-md-3">
+            One of four columns
+          </div>
+          <div class="col-xs-6 col-md-3">
+            One of four columns
+          </div>
+          <div class="col-xs-6 col-md-3">
             One of four columns
           </div>
         </div>
@@ -149,6 +203,51 @@
             One of twelve columns
           </div>
           <div class="col-md-1">
+            One of twelve columns
+          </div>
+        </div>
+      </div>
+    """
+
+  '12 Responsive Columns grid - Bootstrap 4':
+    'prefix': '12colr'
+    'body': """
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
+            One of twelve columns
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
+            One of twelve columns
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
+            One of twelve columns
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
+            One of twelve columns
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
+            One of twelve columns
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
+            One of twelve columns
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
+            One of twelve columns
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
+            One of twelve columns
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
+            One of twelve columns
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
+            One of twelve columns
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
+            One of twelve columns
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
             One of twelve columns
           </div>
         </div>
