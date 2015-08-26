@@ -53,10 +53,31 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            One of three columns
+            One of two columns
           </div>
           <div class="col-md-6">
-            One of three columns
+            One of two columns
+          </div>
+        </div>
+      </div>
+    """
+
+  '4 Columns grid - Bootstrap 4':
+    'prefix': '4col'
+    'body': """
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            One of four columns
+          </div>
+          <div class="col-md-3">
+            One of four columns
+          </div>
+          <div class="col-md-3">
+            One of four columns
+          </div>
+          <div class="col-md-3">
+            One of four columns
           </div>
         </div>
       </div>
