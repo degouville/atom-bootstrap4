@@ -1,6 +1,5 @@
 '.text.html': # Work only with HTML
 
-  # TODO: Add Layout Snippets from http://v4-alpha.getbootstrap.com/layout/overview
 
   # Containers
   'Container - Bootstrap 4':
