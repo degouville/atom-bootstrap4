@@ -1,0 +1,93 @@
+'.text.html': # Work only with HTML
+
+
+  # Tables
+  'Table - Bootstrap 4':
+    'prefix': 'tab'
+    'body': """
+      <table class="table">
+        <thead>
+          <tr>
+            <th>$1</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>$2</td>
+          </tr>
+        </tbody>
+      </table>
+    """
+
+  'Tables (full option) - Bootstrap 4':
+    'prefix': 'tabs'
+    'body': """
+      <table class="table table-${1:inverse|reflow|striped|bordered|hover|sm}">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Username</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    """
+
+  'Tables Head Inverse - Bootstrap 4':
+    'prefix': 'tabhin'
+    'body': """
+      <table class="table">
+        <thead class="thead-inverse">
+          $1
+        </thead>
+      </table>
+    """
+
+  'Tables Responsive - Bootstrap 4':
+    'prefix': 'tabin'
+    'body': """
+      <div class="table-responsive">
+        <table class="table">
+          ...
+        </table>
+      </div>
+    """
+
+  'Tables Colspan - Bootstrap 4':
+    'prefix': 'tdcs'
+    'body': """
+    <td colspan="$1">
+    """
+
+  'Tables Colors (tr) - Bootstrap 4':
+    'prefix': 'tabtrc'
+    'body': """
+      <tr class="table-${1:active|success|warning|danger|info}">$2</tr>
+    """
+
+  'Tables Colors (td) - Bootstrap 4':
+    'prefix': 'tabtdc'
+    'body': """
+      <td class="table-${1:active|success|warning|danger|info}">$2</td>
+    """
