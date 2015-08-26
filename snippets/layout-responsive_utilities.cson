@@ -15,8 +15,8 @@
     'body': """
       <div class="visible-print-${1:block|inline|inline-block}">
         $2
-    """
       </div>
+    """
 
   'Responsive hidden print classes - Bootstrap 4':
     'prefix': 'colhp'
