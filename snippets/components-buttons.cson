@@ -62,8 +62,8 @@
       <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">$1</button>
     """
 
-  'Button group Checkbox - Bootstrap 4':
-    'prefix': 'btngc'
+  'Button plugin Checkbox - Bootstrap 4':
+    'prefix': 'btnpc'
     'body': """
       <div class="btn-group" data-toggle="buttons">
         <label class="btn btn-primary active">
@@ -78,8 +78,8 @@
       </div>
     """
 
-  'Button group Radio - Bootstrap 4':
-    'prefix': 'btngr'
+  'Button plugin Radio - Bootstrap 4':
+    'prefix': 'btnpr'
     'body': """
       <div class="btn-group" data-toggle="buttons">
         <label class="btn btn-primary active">
