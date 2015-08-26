@@ -69,9 +69,3 @@
         <button type="button" class="btn btn-secondary">${2:Right}</button>
       </div>
     """
-
-
-
-<div class="btn-group-vertical">
-  ...
-</div>
