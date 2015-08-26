@@ -1,0 +1,63 @@
+'.text.html': # Work only with HTML
+
+  # TODO: Add Layout Snippets from http://v4-alpha.getbootstrap.com/layout/overview
+
+  # Containers
+  'Container - Bootstrap 4':
+    'prefix': 'con'
+    'body': """
+      <div class="container">
+        $1
+      </div>
+    """
+
+  'Container Fluid (full width) - Bootstrap 4':
+    'prefix': 'conf'
+    'body': """
+      <div class="container-fluid">
+        $1
+      </div>
+    """
+
+
+  # Grid
+  'Row - Bootstrap 4':
+    'prefix': 'row'
+    'body': """
+      <div class="row">
+        $1
+      </div>
+    """
+
+  '3 Columns grid - Bootstrap 4':
+    'prefix': '3col'
+    'body': """
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            One of three columns
+          </div>
+          <div class="col-md-4">
+            One of three columns
+          </div>
+          <div class="col-md-4">
+            One of three columns
+          </div>
+        </div>
+      </div>
+    """
+
+  '2 Columns grid - Bootstrap 4':
+    'prefix': '2col'
+    'body': """
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            One of three columns
+          </div>
+          <div class="col-md-6">
+            One of three columns
+          </div>
+        </div>
+      </div>
+    """
