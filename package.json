@@ -1,18 +1,26 @@
 {
   "name": "atom-bootstrap4",
-  "main": "./lib/atom-bootstrap4",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "Bootstrap4 Support with snippets and autocompletion.",
   "keywords": [
+    "Bootstrap4",
+    "Bootstrap 4",
+    "Bootstrap",
+    "Framework",
+    "Responsive",
+    "Flexbox",
+    "Github",
+    "CSS",
+    "JS",
+    "HTML"
   ],
-  "activationCommands": {
-    "atom-workspace": "atom-bootstrap4:toggle"
-  },
+  "readmeFilename": "README.md",
+  "homepage":   "https://github.com/mdegoo/atom-bootstrap4",
+  "bugs":       "https://github.com/mdegoo/atom-bootstrap4",
   "repository": "https://github.com/atom/atom-bootstrap4",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
