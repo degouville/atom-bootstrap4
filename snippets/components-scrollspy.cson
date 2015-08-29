@@ -2,7 +2,6 @@
 
   # TODO: Add Usage form http://v4-alpha.getbootstrap.com/components/scrollspy/#usage
 
-
   # Scrollspy
   'Scrollspy - Bootstrap 4':
     'prefix': 'scr'
