@@ -23,7 +23,7 @@
     """
 
   'Label pill - Bootstrap 4':
-    'prefix': 'labco'
+    'prefix': 'labpi'
     'body': """
       <span class="label label-pill label-${1:default|primary|success|info|warning|danger}">$2</span>
     """
