@@ -12,3 +12,79 @@
     'body': """
       <p class="text-${1:lowercase|uppercase|capitalize}">${1:Lowercased|Uppercased|Capitalized} text.</p>
     """
+
+  'Text context colors - Bootstrap 4':
+    'prefix': 'textcol'
+    'body': """
+      <p class="text-${1:muted|primary|success|info|warning|danger}">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+    """
+
+  'Text context background colors - Bootstrap 4':
+    'prefix': 'textbgcol'
+    'body': """
+      <p class="bg-${1:muted|primary|success|info|warning|danger}">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+    """
+
+  'Close icon - Bootstrap 4':
+    'prefix': 'cloi'
+    'body': """
+      <button type="button" class="close" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        <span class="sr-only">Close</span>
+      </button>
+    """
+
+  'Center block - Bootstrap 4':
+    'prefix': 'cenb'
+    'body': """
+      <div class="center-block">Centered block</div>
+    """
+
+  'Clearfix - Bootstrap 4':
+    'prefix': 'cle'
+    'body': """
+      <div class="clearfix">...</div>
+    """
+
+  'Hidden content - Bootstrap 4':
+    'prefix': 'hid'
+    'body': """
+      <input type="text" hidden>
+    """
+
+  'Invisible content - Bootstrap 4':
+    'prefix': 'inv'
+    'body': """
+      <div class="invisible">...</div>
+    """
+
+  'Screen reader - Bootstrap 4':
+    'prefix': 'sro'
+    'body': """
+      <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+    """
+
+  'Image replacement - Bootstrap 4':
+    'prefix': 'imgre'
+    'body': """
+      <h1 class="text-hide">Custom heading</h1>
+    """
+
+  'Responsive embeds - Bootstrap 4':
+    'prefix': 'emb'
+    'body': """
+      <!-- 21:9 aspect ratio -->
+      <div class="embed-responsive embed-responsive-21by9">
+        <iframe class="embed-responsive-item" src="..."></iframe>
+      </div>
+
+      <!-- 16:9 aspect ratio -->
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="..."></iframe>
+      </div>
+
+      <!-- 4:3 aspect ratio -->
+      <div class="embed-responsive embed-responsive-4by3">
+        <iframe class="embed-responsive-item" src="..."></iframe>
+      </div>
+    """
