@@ -1,0 +1,14 @@
+'.text.html': # Work only with HTML
+
+  # Utilities
+  'Text alignment - Bootstrap 4':
+    'prefix': 'texta'
+    'body': """
+      <p class="text-${1:left|center|right|justify|nowrap}">$2</p>
+    """
+
+  'Text transform - Bootstrap 4':
+    'prefix': 'textt'
+    'body': """
+      <p class="text-${1:lowercase|uppercase|capitalize}">${1:Lowercased|Uppercased|Capitalized} text.</p>
+    """
