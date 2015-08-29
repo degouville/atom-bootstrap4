@@ -1,7 +1,7 @@
 '.text.html': # Work only with HTML
 
   # Navs
-  'Navs - Bootstrap 4':
+  'Nav - Bootstrap 4':
     'prefix': 'nav'
     'body': """
       <ul class="nav">
@@ -20,7 +20,7 @@
       </ul>
     """
 
-  'Navs inline - Bootstrap 4':
+  'Nav inline - Bootstrap 4':
     'prefix': 'navin'
     'body': """
       <nav class="nav">
@@ -31,19 +31,45 @@
       </nav>
     """
 
-  'Navs - Bootstrap 4':
-    'prefix': 'nav'
+  'Nav tabs - Bootstrap 4':
+    'prefix': 'navtb'
     'body': """
-
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">Active</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Link</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Another link</a>
+        </li>
+        <li class="nav-item disabled">
+          <a href="#" class="nav-link">Disabled</a>
+        </li>
+      </ul>
     """
 
-  'Navs - Bootstrap 4':
-    'prefix': 'nav'
+  'Nav pills - Bootstrap 4':
+    'prefix': 'navpl'
     'body': """
-
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">Active</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Link</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Another link</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
     """
 
-  'Navs - Bootstrap 4':
+  'Nav - Bootstrap 4':
     'prefix': 'nav'
     'body': """
 
