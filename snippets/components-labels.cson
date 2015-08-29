@@ -1,0 +1,29 @@
+'.text.html': # Work only with HTML
+
+  # Labels
+  'Label - Bootstrap 4':
+    'prefix': 'lab'
+    'body': '<span class="label label-default">$1</span>'
+
+  'Label heading example - Bootstrap 4':
+    'prefix': 'labex'
+    'body': """
+      <h1>Example heading <span class="label label-default">New</span></h1>
+      <h2>Example heading <span class="label label-default">New</span></h2>
+      <h3>Example heading <span class="label label-default">New</span></h3>
+      <h4>Example heading <span class="label label-default">New</span></h4>
+      <h5>Example heading <span class="label label-default">New</span></h5>
+      <h6>Example heading <span class="label label-default">New</span></h6>
+    """
+
+  'Label context - Bootstrap 4':
+    'prefix': 'labco'
+    'body': """
+      <span class="label label-${1:default|primary|success|info|warning|danger}">$2</span>
+    """
+
+  'Label pill - Bootstrap 4':
+    'prefix': 'labco'
+    'body': """
+      <span class="label label-pill label-${1:default|primary|success|info|warning|danger}">$2</span>
+    """
