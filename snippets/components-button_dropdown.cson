@@ -1,7 +1,5 @@
 '.text.html': # Work only with HTML
 
-  # TODO: Add snippet from http://v4-alpha.getbootstrap.com/components/button-dropdown
-
   # Buttons Dropdown
   'Button dropdown - Bootstrap 4':
     'prefix': 'btndd'
