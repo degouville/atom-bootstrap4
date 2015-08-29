@@ -1,0 +1,31 @@
+'.text.html': # Work only with HTML
+
+  # Lists
+  'List - Bootstrap 4':
+    'prefix': 'lis'
+    'body': """
+      <ul class="list-group">
+        <li class="list-group-item">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Morbi leo risus</li>
+      </ul>
+    """
+
+  'List label - Bootstrap 4':
+    'prefix': 'lisla'
+    'body': """
+      <ul class="list-group">
+        <li class="list-group-item">
+          <span class="label label-default label-pill pull-right">14</span>
+          Cras justo odio
+        </li>
+        <li class="list-group-item">
+          <span class="label label-default label-pill pull-right">2</span>
+          Dapibus ac facilisis in
+        </li>
+        <li class="list-group-item">
+          <span class="label label-default label-pill pull-right">1</span>
+          Morbi leo risus
+        </li>
+      </ul>
+    """
