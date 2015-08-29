@@ -1,5 +1,7 @@
 '.text.html': # Work only with HTML
 
+  # TODO: Add Usage form http://v4-alpha.getbootstrap.com/components/alerts/#javascript-behavior
+
   # Labels
   'Alert success - Bootstrap 4':
     'prefix': 'alesu'
@@ -63,5 +65,17 @@
     'body': """
       <div class="alert alert-danger" role="alert">
         <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+      </div>
+    """
+
+  'Alert dismissing - Bootstrap 4':
+    'prefix': 'aledis'
+    'body': """
+      <div class="alert alert-warning alert-dismissible fade in" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          <span class="sr-only">Close</span>
+        </button>
+        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
       </div>
     """
