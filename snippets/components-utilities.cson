@@ -73,18 +73,8 @@
   'Responsive embeds - Bootstrap 4':
     'prefix': 'emb'
     'body': """
-      <!-- 21:9 aspect ratio -->
-      <div class="embed-responsive embed-responsive-21by9">
-        <iframe class="embed-responsive-item" src="..."></iframe>
-      </div>
-
-      <!-- 16:9 aspect ratio -->
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="..."></iframe>
-      </div>
-
-      <!-- 4:3 aspect ratio -->
-      <div class="embed-responsive embed-responsive-4by3">
+      <!-- 21:9 | 16:9 | 4:3 aspect ratio -->
+      <div class="embed-responsive embed-responsive-${1:21by9|16by9|4by3}">
         <iframe class="embed-responsive-item" src="..."></iframe>
       </div>
     """
