@@ -1,7 +1,7 @@
 '.text.html': # Work only with HTML
 
   # Labels
-  'Alert - Bootstrap 4':
+  'Alert success - Bootstrap 4':
     'prefix': 'alesu'
     'body': """
       <div class="alert alert-success" role="alert">
@@ -9,7 +9,7 @@
       </div>
     """
 
-  'Alert - Bootstrap 4':
+  'Alert info - Bootstrap 4':
     'prefix': 'alein'
     'body': """
       <div class="alert alert-info" role="alert">
@@ -17,7 +17,7 @@
       </div>
     """
 
-  'Alert - Bootstrap 4':
+  'Alert warning - Bootstrap 4':
     'prefix': 'alewa'
     'body': """
       <div class="alert alert-warning" role="alert">
@@ -25,10 +25,43 @@
       </div>
     """
 
-  'Alert - Bootstrap 4':
+  'Alert danger - Bootstrap 4':
     'prefix': 'aleda'
     'body': """
       <div class="alert alert-danger" role="alert">
         <strong>Oh snap!</strong> Change a few things up and try submitting again.
+      </div>
+    """
+
+
+  'Alert success w/ link color - Bootstrap 4':
+    'prefix': 'alesu'
+    'body': """
+      <div class="alert alert-success" role="alert">
+        <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
+      </div>
+    """
+
+  'Alert info w/ link color - Bootstrap 4':
+    'prefix': 'alein'
+    'body': """
+      <div class="alert alert-info" role="alert">
+        <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+      </div>
+    """
+
+  'Alert warning w/ link color - Bootstrap 4':
+    'prefix': 'alewa'
+    'body': """
+      <div class="alert alert-warning" role="alert">
+        <strong>Warning!</strong> Better check yourself, you're <a href="#" class="alert-link">not looking too good</a>.
+      </div>
+    """
+
+  'Alert danger w/ link color - Bootstrap 4':
+    'prefix': 'aleda'
+    'body': """
+      <div class="alert alert-danger" role="alert">
+        <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
       </div>
     """
