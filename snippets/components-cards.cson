@@ -1,0 +1,359 @@
+'.text.html': # Work only with HTML
+
+  # Cards
+  'Cards - Bootstrap 4':
+    'prefix': 'car'
+    'body': """
+      <div class="card">
+        <img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Button</a>
+        </div>
+      </div>
+    """
+
+  'Cards content type - Bootstrap 4':
+    'prefix': 'carct'
+    'body': """
+      <div class="card">
+        <img class="card-img-top" data-src="holder.js/100%x180/?text=Image cap" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Cras justo odio</li>
+          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+        <div class="card-block">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    """
+
+  'Cards content type w/o list - Bootstrap 4':
+    'prefix': 'carctwli'
+    'body': """
+      <div class="card">
+        <img class="card-img-top" data-src="holder.js/100%x180/?text=Image cap" alt="Card image cap">
+        <div class="card-block">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    """
+
+  'Cards content type w/o img - Bootstrap 4':
+    'prefix': 'carctwimg'
+    'body': """
+      <div class="card card-block">
+        <h4 class="card-title">Card title</h4>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    """
+
+  'Cards content type Title - Bootstrap 4':
+    'prefix': 'carctt'
+    'body': """
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+        </div>
+        <img data-src="holder.js/100%x180/?text=Image" alt="Card image">
+        <div class="card-block">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    """
+
+  'Cards sizing - Bootstrap 4':
+    'prefix': 'carsz'
+    'body': """
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card card-block">
+            <h3 class="card-title">Special title treatment</h3>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card card-block">
+            <h3 class="card-title">Special title treatment</h3>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    """
+
+  'Cards sizing w/ Custom width - Bootstrap 4':
+    'prefix': 'carszc'
+    'body': """
+      <div class="card card-block" style="width: 20rem;">
+        <h3 class="card-title">Special title treatment</h3>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    """
+
+  'Cards Text alignment - Bootstrap 4':
+    'prefix': 'carta'
+    'body': """
+      <div class="card card-block">
+        <h4 class="card-title">Special title treatment</h4>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+
+      <div class="card card-block text-center">
+        <h4 class="card-title">Special title treatment</h4>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+
+      <div class="card card-block text-right">
+        <h4 class="card-title">Special title treatment</h4>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    """
+
+  'Cards header & footer - Bootstrap 4':
+    'prefix': 'carhf'
+    'body': """
+    <div class="card">
+      <div class="card-header">
+        Featured
+      </div>
+      <div class="card-block">
+        <h4 class="card-title">Special title treatment</h4>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    """
+
+  'Cards header & footer (Quote) - Bootstrap 4':
+    'prefix': 'carhfq'
+    'body': """
+      <div class="card">
+        <div class="card-header">
+          Quote
+        </div>
+        <div class="card-block">
+          <blockquote class="card-blockquote">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    """
+
+  'Cards image caps - Bootstrap 4':
+    'prefix': 'caric'
+    'body': """
+      <div class="card">
+        <img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+        <img class="card-img-bottom" data-src="holder.js/100%x180/" alt="Card image cap">
+      </div>
+    """
+
+  'Cards image overlays - Bootstrap 4':
+    'prefix': 'cario'
+    'body': """
+      <div class="card card-inverse">
+        <img class="card-img" data-src="holder.js/100%x270/#55595c:#373a3c/text:Card image" alt="Card image">
+        <div class="card-img-overlay">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    """
+
+  'Cards inverted text - Bootstrap 4':
+    'prefix': 'carit'
+    'body': """
+      <div class="card card-inverse" style="background-color: #333; border-color: #333;">
+        <div class="card-block">
+          <h3 class="card-title">Special title treatment</h3>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Button</a>
+        </div>
+      </div>
+    """
+
+  'Cards background color - Bootstrap 4':
+    'prefix': 'carbgc'
+    'body': """
+      <div class="card card-inverse card-${1:primary|success|info|warning|danger} text-center">
+        <div class="card-block">
+          <blockquote class="card-blockquote">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    """
+
+  'Cards groups - Bootstrap 4':
+    'prefix': 'cargr'
+    'body': """
+      <div class="card-group">
+        <div class="card">
+          <img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    """
+
+  'Cards decks - Bootstrap 4':
+    'prefix': 'cardk'
+    'body': """
+      <div class="card-deck-wrapper">
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" data-src="holder.js/100%x200/" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" data-src="holder.js/100%x200/" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" data-src="holder.js/100%x200/" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    """
+
+  'Cards columns - Bootstrap 4':
+    'prefix': 'carcol'
+    'body': """
+      <div class="card-columns">
+        <div class="card">
+          <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Card title that wraps to a new line</h4>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div class="card card-block">
+          <blockquote class="card-blockquote">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer>
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card">
+          <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card card-block card-inverse card-primary text-center">
+          <blockquote class="card-blockquote">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+            <footer>
+              <small>
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card card-block text-center">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+        <div class="card">
+          <img class="card-img" data-src="holder.js/100%x260/" alt="Card image">
+        </div>
+        <div class="card card-block text-right">
+          <blockquote class="card-blockquote">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer>
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    """
+
+  'Cards groups - Bootstrap 4':
+    'prefix': 'cargr'
+    'body': """
+
+    """
+
+  'Cards groups - Bootstrap 4':
+    'prefix': 'cargr'
+    'body': """
+
+    """
