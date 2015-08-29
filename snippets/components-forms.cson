@@ -1,6 +1,6 @@
 '.text.html': # Work only with HTML
 
-  # Buttons Dropdown
+  # Forms
   'Form Controls - Bootstrap 4':
     'prefix': 'form'
     'body': """
