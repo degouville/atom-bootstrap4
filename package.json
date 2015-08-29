@@ -16,8 +16,8 @@
   ],
   "readmeFilename": "README.md",
   "homepage":   "https://github.com/mdegoo/atom-bootstrap4",
-  "bugs":       "https://github.com/mdegoo/atom-bootstrap4",
-  "repository": "https://github.com/atom/atom-bootstrap4",
+  "bugs":       "https://github.com/mdegoo/atom-bootstrap4/issues",
+  "repository": "https://github.com/mdegoo/atom-bootstrap4",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
