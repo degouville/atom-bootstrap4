@@ -1,0 +1,8 @@
+'.text.html': # Work only with HTML
+
+  # Modals
+  'Modal - Bootstrap 4':
+    'prefix': 'mod'
+    'body': """
+
+    """
