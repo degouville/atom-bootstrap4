@@ -1,5 +1,7 @@
 '.text.html': # Work only with HTML
 
+  # TODO: Add Usage form http://v4-alpha.getbootstrap.com/components/navs/#javascript-behavior
+
   # Navs
   'Nav - Bootstrap 4':
     'prefix': 'nav'
@@ -69,8 +71,73 @@
       </ul>
     """
 
-  'Nav - Bootstrap 4':
-    'prefix': 'nav'
+  'Nav pills stacked - Bootstrap 4':
+    'prefix': 'navplsk'
     'body': """
+      <ul class="nav nav-pills nav-stacked">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">Active</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Link</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Another link</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+    """
 
+  'Nav tabs w/ dropdown - Bootstrap 4':
+    'prefix': 'navtbdd'
+    'body': """
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Another link</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+    """
+
+  'Nav pills w/ dropdown - Bootstrap 4':
+    'prefix': 'navpldd'
+    'body': """
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Another link</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
     """
