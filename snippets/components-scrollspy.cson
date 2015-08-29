@@ -1,0 +1,16 @@
+'.text.html': # Work only with HTML
+
+  # Scrollspy
+  'Scrollspy - Bootstrap 4':
+    'prefix': 'scr'
+    'body': """
+      <body data-spy="scroll" data-target="#navbar-example">
+        ...
+        <div id="navbar-example">
+          <ul class="nav nav-tabs" role="tablist">
+            ...
+          </ul>
+        </div>
+        ...
+      </body>
+    """
