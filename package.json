@@ -1,6 +1,6 @@
 {
   "name": "atom-bootstrap4",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Bootstrap4 Support with snippets and autocompletion.",
   "keywords": [
     "Bootstrap4",
@@ -15,8 +15,8 @@
     "HTML"
   ],
   "readmeFilename": "README.md",
-  "homepage":   "https://github.com/mdegoo/atom-bootstrap4",
-  "bugs":       "https://github.com/mdegoo/atom-bootstrap4/issues",
+  "homepage": "https://github.com/mdegoo/atom-bootstrap4",
+  "bugs": "https://github.com/mdegoo/atom-bootstrap4/issues",
   "repository": "https://github.com/mdegoo/atom-bootstrap4",
   "license": "MIT",
   "engines": {
