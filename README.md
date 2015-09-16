@@ -15,7 +15,7 @@ Key Features:
 
 ![Screenshot][2]
 
-## <a name="#top"></a>Menu
+## <a name="#top">Menu</a>
 | Templates              | Layout                                         | Content                                        |
 | --------------         | --------------                                 | --------------                                 |
 |  [Basic](#templates)   |  [Grid](#grid)                                 |  [Typography](#typography)                     |
