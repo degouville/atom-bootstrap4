@@ -56,7 +56,7 @@ Components
   Popovers
   Collapse
   Carousel
-  Utilities -->
+  Utilities
 
 
 ## Snippets
@@ -357,6 +357,7 @@ Components
 | caroca         | Carousel caption                      |
 
 ###### Utilities
+<<<<<<< HEAD
 | Aliases        | Description                           |
 | :------------- | :------------------------------------ |
 | texta          | Text alignment                        |
@@ -371,6 +372,22 @@ Components
 | imgre          | Image replacement                     |
 | emb            | Responsive embeds                     |
 
+=======
+  | Aliases        | Description                           |
+  | :------------- | :------------------------------------ |
+  | texta          | Text alignment                        |
+  | textt          | Text transform                        |
+  | textcol        | Text context colors                   |
+  | cloi           | Close icon                            |
+  | cenb           | Center block                          |
+  | cle            | Clearfix                              |
+  | hid            | Hidden content                        |
+  | inv            | Invisible content                     |
+  | sro            | Screen reader                         |
+  | imgre          | Image replacement                     |
+  | emb            | Responsive embeds                     |
+ -->
+>>>>>>> 1604c1715270bd05cc039bfc8014650554e74409
 ## Notes
 - Foo
 - Bar
