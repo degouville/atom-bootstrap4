@@ -16,22 +16,11 @@ Key Features:
 ![Screenshot][2]
 
 ## Menu
-| Templates                                      |
-| --------------                                 |
-|  [Basic](#basic)                               |
-|  [Example](#example)                           |
-
-| Layout                                         |
-| --------------                                 |
-|  [Grid](#grid)                                 |
-|  [Media](#media)                               |
-|  [Responsive Utilities](#responsive-utilities) |
-
-| Content                                        |
-| --------------                                 |
-|  [Typography](#typography)                     |
-|  [Tables](#tables)                             |
-|  [Figures](#figures)                           |
+| Templates              | Layout                                         | Content                                        |
+| --------------         | --------------                                 | --------------                                 |
+|  [Basic](#templates)   |  [Grid](#grid)                                 |  [Typography](#typography)                     |
+|  [Example](#templates) |  [Media](#media)                               |  [Tables](#tables)                             |
+|                        |  [Responsive Utilities](#responsive-utilities) |  [Figures](#figures)                           |
 
 | Components                                     |
 | --------------                                 |
@@ -63,7 +52,7 @@ Key Features:
 
 ## Snippets
 
-### Templates
+### <a name="templates">Templates</a>
 | Aliases        | Description                           |
 | :------------- | :------------------------------------ |
 | cdn-b4         | Generates CSS & JS from CDN           |
@@ -377,10 +366,10 @@ Key Features:
 | imgre          | Image replacement                     |
 | emb            | Responsive embeds                     |
 
-## Notes
+<!-- ## Notes
 - Foo
 - Bar
-- Baz
+- Baz -->
 
 <!-- Links -->
 [1]: http://v4-alpha.getbootstrap.com/
