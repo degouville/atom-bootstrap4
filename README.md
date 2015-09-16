@@ -66,17 +66,16 @@ Key Features:
   - `12colr`: Generates Responsive 12 Columns Grid
 
 ###### Media
-
-- `med` : Generates Media
-- `medr`: Generates Media right
-- `medm`: Generates Media middle
-- `medb`: Generates Media bottom
-- `medl`: Generates Media List
+  - `med` : Generates Media
+  - `medr`: Generates Media right
+  - `medm`: Generates Media middle
+  - `medb`: Generates Media bottom
+  - `medl`: Generates Media List
 
 ###### Responsive Utilities
-- `colh` : Generates Responsive hidden classes
-- `colvp`: Generates Responsive visible print classes
-- `colhp`: Generates Responsive hidden print classes
+  - `colh` : Generates Responsive hidden classes
+  - `colvp`: Generates Responsive visible print classes
+  - `colhp`: Generates Responsive hidden print classes
 
 ### Components
 
