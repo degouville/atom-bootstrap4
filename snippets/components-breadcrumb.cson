@@ -1,7 +1,7 @@
 '.text.html': # Work only with HTML
 
   # Breadcrumb
-  'Navbar - Bootstrap 4':
+  'Breadcrumb - Bootstrap 4':
     'prefix': 'bre'
     'body': """
       <ol class="breadcrumb">

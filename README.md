@@ -16,10 +16,48 @@ Key Features:
 ![Screenshot][2]
 
 ## Menu
-  | Item One       | Item Two                              |
+  | Foo            | Bar                                   |
   | -------------- | ------------------------------------- |
   | Item One       | Item Two                              |
   | Item One       | Item Two                              |
+  | Item One       | Item Two                              |
+  | Item One       | Item Two                              |
+  | Item One       | Item Two                              |
+
+Templates
+Layout
+  Grid
+  [Media](#foo)
+  Responsive Utilities
+Content
+  Typography
+  Tables
+  Figures
+Components
+  Buttons
+  Button group
+  Button dropdown
+  Forms
+  Input group
+  Dropdowns
+  Jumbotron
+  Label
+  Alerts
+  Card
+  Navs
+  Navbar
+  Breadcrumb
+  Pagination
+  Progress
+  List group
+  Modal
+  Scrollspy
+  Tooltips
+  Popovers
+  Collapse
+  Carousel
+  Utilities
+
 
 ## Snippets
 
@@ -71,7 +109,7 @@ Key Features:
 
 ###### Media
   | Aliases        | Description                           |
-  | :------------- | :----------------------                      |
+  | :------------- | :-------------------------------------|
   | med            | Generates Media                       |
   | medr           | Generates Media right                 |
   | medm           | Generates Media middle                |
@@ -85,7 +123,7 @@ Key Features:
   | colvp          | Generates Responsive visible print cla|
   | colhp          | Generates Responsive hidden print clas|
 
-### Content
+### <a name="foo"></a>Content
 
 ###### Typography
   | Aliases        | Description                           |
