@@ -372,8 +372,9 @@ Components
 | emb            | Responsive embeds                     |
 
 ## Notes
-- Snippet funcionality has [some bugs][2], I hope it will be fixed by Atom team.
-- More to come :)
+- Foo
+- Bar
+- Baz
 
 <!-- Links -->
 [1]: http://v4-alpha.getbootstrap.com/
