@@ -17,7 +17,7 @@ Key Features:
 
 ## Menu
   | Item One       | Item Two                              |
-  | -------------- | --------------                               |
+  | -------------- | ------------------------------------- |
   | Item One       | Item Two                              |
   | Item One       | Item Two                              |
 
@@ -25,7 +25,7 @@ Key Features:
 
 ### Templates
   | Aliases        | Description                           |
-  | :------------- | :-------------                               |
+  | :------------- | :------------------------------------ |
   | cdn-b4         | Generates CSS & JS from CDN           |
   | html-b4        | Generates Basic HTML Template         |
   | html-bl        | Generates Blog Template               |
@@ -47,7 +47,7 @@ Key Features:
 
 ###### Grid
   | Aliases        | Description                           |
-  | :------------- | :------------------------------------        |
+  | :------------- | :------------------------------------ |
   | con            | Generates container                   |
   | conf           | Generates fluid container             |
   | row            | Generates row                         |
@@ -80,7 +80,7 @@ Key Features:
 
 ###### Responsive Utilities
   | Aliases        | Description                           |
-  | :------------- | :-------------                               |
+  | :------------- | :------------------------------------ |
   | colh           | Generates Responsive hidden classes   |
   | colvp          | Generates Responsive visible print cla|
   | colhp          | Generates Responsive hidden print clas|
@@ -89,7 +89,7 @@ Key Features:
 
 ###### Typography
   | Aliases        | Description                           |
-  | :------------- | :-------------                               |
+  | :------------- | :------------------------------------ |
   | texm           | Generates Text Muted                  |
   | dih            | Generates Display Heading             |
   | lead           | Generates Lead                        |
@@ -107,7 +107,7 @@ Key Features:
   | imgce          | Generates Image Center -              |
 ###### Tables
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | tab            | Generates Table                       |
   | tabs           | Generates Tables (full option)        |
   | tabhin         | Generates Tables Head Inverse         |
@@ -118,29 +118,29 @@ Key Features:
 
 ###### Figures
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | figooo         | Figure                                |
 
 ### Components
 
 ###### Buttons
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | btn            | Button                                |
   | btnc           | Button colors                         |
   | btno           | Button Outline                        |
-  | btna           | Button <a>                            |
-  | btni           | Button <input>                        |
+  | btna           | Button < a >                          |
+  | btni           | Button < input >                      |
   | btnsz          | Button sizes                          |
   | btnbk          | Button block                          |
-  | btnast         | Button state <a>                      |
+  | btnast         | Button state < a>                     |
   | btnst          | Button state                          |
   | btnt           | Button toggle                         |
   | btnpr          | Button plugin Radio                   |
 
 ###### Button group
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | btngr          | 'Button group                         |
   | btngr          | 'Button group                         |
   | btngrsi        | 'Button group size                    |
@@ -148,13 +148,13 @@ Key Features:
   | btngrvr        | 'Button group                         |
 ###### Button dropdown
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | btndd          | 'Button dropdown                      |
   | btndu          | 'Button dropup                        |
 
 ###### Forms
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | form           | Form Controls                         |
   | formgr         | Form group                            |
   | formin         | Form inline                           |
@@ -178,7 +178,7 @@ Key Features:
 
 ###### Input group
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | iptg           | Input Group                           |
   | iptgsz         | Input Group Sizing                    |
   | iptbtnadd      | Buttons addons                        |
@@ -187,27 +187,27 @@ Key Features:
 
 ###### Dropdowns
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | drp            | Dropdown                              |
   | drpagm         | Dropdown Alignement                   |
   | drpmh          | Dropdown menu header                  |
 
 ###### Jumbotron
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | jum            | Jumbotron                             |
   | jumf           | Fluid Jumbotron                       |
 
 ###### Label
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | lab            | Label                                 |
   | labco          | Label context                         |
   | labpi          | Label pill                            |
 
 ###### Alerts
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | alesu          | Alert success                         |
   | alein          | Alert info                            |
   | alewa          | Alert warning                         |
@@ -216,7 +216,7 @@ Key Features:
 
 ###### Card
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | car            | Cards                                 |
   | carct          | Cards content type                    |
   | carsz          | Cards sizing                          |
@@ -232,7 +232,7 @@ Key Features:
 
 ###### Navs
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | nav            | Nav                                   |
   | navin          | Nav inline                            |
   | navtb          | Nav tabs                              |
@@ -242,7 +242,7 @@ Key Features:
 
 ###### Navbar
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | nvb            | Navbar                                |
   | nvbc           | Navbar color                          |
   | nvbconout      | Navbar container out                  |
@@ -254,18 +254,18 @@ Key Features:
   | nvb            | Navbar                                |
 ###### Breadcrumb
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | bre            | Breadcrumb                            |
 ###### Pagination
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | pag            | Pagination                            |
   | pagsz          | Pagination                            |
   | pager          | Pagination pager                      |
 
 ###### Progress
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | pro            | Progress                              |
   | proco          | Progress context                      |
   | procost        | Progress striped                      |
@@ -273,7 +273,7 @@ Key Features:
 
 ###### List group
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | lis            | List                                  |
   | lisla          | List label                            |
   | lisli          | List linked                           |
@@ -284,7 +284,7 @@ Key Features:
 
 ###### Modal
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | mod            | Modal                                 |
   | modsz          | Modal sizes                           |
   | modgr          | Modal grid                            |
@@ -292,35 +292,35 @@ Key Features:
 
 ###### Scrollspy
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | scr            | Scrollspy                             |
 
 ###### Tooltips
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | too            | Tooltip                               |
 
 ###### Popovers
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | pop            | Popover                               |
   | popdi          | Popover direction                     |
 
 ###### Collapse
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | coll           | Collapse                              |
   | colla          | Collapse accordion                    |
 
 ###### Carousel
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | caro           | Carousel                              |
   | caroca         | Carousel caption                      |
 
 ###### Utilities
   | Aliases        | Description                           |
-  | :------------- | :-------------------------------------|
+  | :------------- | :------------------------------------ |
   | texta          | Text alignment                        |
   | textt          | Text transform                        |
   | textcol        | Text context colors                   |
