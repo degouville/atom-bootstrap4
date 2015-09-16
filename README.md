@@ -80,32 +80,33 @@ Key Features:
 ### Content
 
 ###### Typography
-texm  Text Muted
-dih   Display Heading
-lead  Lead
-blo   Blockquotes
-blor  Blockquotes Reverse
-lisun List Unstyled
-lisin List Inline
-desho Horizontal Description
-###### Images
-imgr  Responsive Image -
-imgro Image Rounded -
-imgci Image Circle -
-imgth Image Thumbnail -
-imgl  Image Left -
-imgr  Image Right -
-imgce Image Center -
+  - `texm`: Generates Text Muted
+  - `dih`: Generates Display Heading
+  - `lead`: Generates Lead
+  - `blo`: Generates Blockquotes
+  - `blor`: Generates Blockquotes Reverse
+  - `lisun`: Generates List Unstyled
+  - `lisin`: Generates List Inline
+  - `desho`: Generates Horizontal Description
+  - `######`: Generates Images
+  - `imgr`: Generates Responsive Image -
+  - `imgro`: Generates Image Rounded -
+  - `imgci`: Generates Image Circle -
+  - `imgth`: Generates Image Thumbnail -
+  - `imgl`: Generates Image Left -
+  - `imgr`: Generates Image Right -
+  - `imgce`: Generates Image Center -
 ###### Tables
-tab    Table
-tabs   Tables (full option)
-tabhin Tables Head Inverse
-tabr   Tables Responsive
-tdcs   Tables Colspan
-tabtrc Tables Colors (tr)
-tabtdc Tables Colors (td)
+  - `tab`: Generates Table
+  - `tabs`: Generates Tables (full option)
+  - `tabhin`: Generates Tables Head Inverse
+  - `tabr`: Generates Tables Responsive
+  - `tdcs`: Generates Tables Colspan
+  - `tabtrc`: Generates Tables Colors (tr)
+  - `tabtdc`: Generates Tables Colors (td)
+
 ###### Figures
-fig    Figure
+  - `fig`: Figure
 
 ### Components
 
