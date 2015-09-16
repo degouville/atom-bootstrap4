@@ -24,7 +24,7 @@ Key Features:
   | Item One       | Item Two                              |
   | Item One       | Item Two                              |
 
-Templates
+<!-- Templates
 Layout
   Grid
   [Media](#foo)
@@ -56,7 +56,7 @@ Components
   Popovers
   Collapse
   Carousel
-  Utilities
+  Utilities -->
 
 
 ## Snippets
