@@ -56,7 +56,7 @@ Components
   Popovers
   Collapse
   Carousel
-  Utilities -->
+  Utilities
 
 
 ## Snippets
@@ -370,7 +370,7 @@ Components
   | sro            | Screen reader                         |
   | imgre          | Image replacement                     |
   | emb            | Responsive embeds                     |
-
+ -->
 ## Notes
 - Snippet funcionality has [some bugs][2], I hope it will be fixed by Atom team.
 - More to come :)
