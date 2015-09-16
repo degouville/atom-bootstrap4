@@ -16,47 +16,49 @@ Key Features:
 ![Screenshot][2]
 
 ## Menu
-| Foo            | Bar                                   |
-| -------------- | ------------------------------------- |
-| Item One       | Item Two                              |
-| Item One       | Item Two                              |
-| Item One       | Item Two                              |
-| Item One       | Item Two                              |
-| Item One       | Item Two                              |
+| Templates                                      |
+| --------------                                 |
+|  [Basic](#basic)                               |
+|  [Example](#example)                           |
 
-<!-- Templates
-Layout
-  Grid
-  Media
-  Responsive Utilities
-Content
-  Typography
-  Tables
-  Figures
-Components
-  Buttons
-  Button group
-  Button dropdown
-  Forms
-  Input group
-  Dropdowns
-  Jumbotron
-  Label
-  Alerts
-  Card
-  Navs
-  Navbar
-  Breadcrumb
-  Pagination
-  Progress
-  List group
-  Modal
-  Scrollspy
-  Tooltips
-  Popovers
-  Collapse
-  Carousel
-  Utilities -->
+| Layout                                         |
+| --------------                                 |
+|  [Grid](#grid)                                 |
+|  [Media](#media)                               |
+|  [Responsive Utilities](#responsive-utilities) |
+
+| Content                                        |
+| --------------                                 |
+|  [Typography](#typography)                     |
+|  [Tables](#tables)                             |
+|  [Figures](#figures)                           |
+
+| Components                                     |
+| --------------                                 |
+|  [Buttons](#buttons)                           |
+|  [Button group](#button-group)                 |
+|  [Button dropdown](#button-dropdown)           |
+|  [Forms](#forms)                               |
+|  [Input group](#input-group)                   |
+|  [Dropdowns](#dropdowns)                       |
+|  [Jumbotron](#jumbotron)                       |
+|  [Label](#label)                               |
+|  [Alerts](#alerts)                             |
+|  [Card](#card)                                 |
+|  [Navs](#navs)                                 |
+|  [Navbar](#navbar)                             |
+|  [Breadcrumb](#breadcrumb)                     |
+|  [Pagination](#pagination)                     |
+|  [Progress](#progress)                         |
+|  [List group](#list group)                     |
+|  [Modal](#modal)                               |
+|  [Scrollspy](#scrollspy)                       |
+|  [Tooltips](#tooltips)                         |
+|  [Popovers](#popovers)                         |
+|  [Collapse](#collapse)                         |
+|  [Carousel](#carousel)                         |
+|  [Utilities](#utilities)                       |
+
 
 
 ## Snippets
