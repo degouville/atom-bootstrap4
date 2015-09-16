@@ -77,6 +77,36 @@ Key Features:
   - `colvp`: Generates Responsive visible print classes
   - `colhp`: Generates Responsive hidden print classes
 
+### Content
+
+###### Typography
+texm  Text Muted
+dih   Display Heading
+lead  Lead
+blo   Blockquotes
+blor  Blockquotes Reverse
+lisun List Unstyled
+lisin List Inline
+desho Horizontal Description
+###### Images
+imgr  Responsive Image -
+imgro Image Rounded -
+imgci Image Circle -
+imgth Image Thumbnail -
+imgl  Image Left -
+imgr  Image Right -
+imgce Image Center -
+###### Tables
+tab    Table
+tabs   Tables (full option)
+tabhin Tables Head Inverse
+tabr   Tables Responsive
+tdcs   Tables Colspan
+tabtrc Tables Colors (tr)
+tabtdc Tables Colors (td)
+###### Figures
+fig    Figure
+
 ### Components
 
 #### Alert
