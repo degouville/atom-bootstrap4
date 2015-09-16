@@ -124,28 +124,120 @@ Key Features:
 ### Components
 
 ###### Buttons
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Button group
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Button dropdown
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Forms
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Input group
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Dropdowns
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Jumbotron
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Label
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Alerts
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Card
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Navs
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Navbar
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Breadcrumb
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Pagination
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Progress
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### List group
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Modal
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Scrollspy
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Tooltips
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Popovers
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Collapse
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Carousel
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 ###### Utilities
+  | Aliases        | Description                                  |
+  | :------------- | :--------------------------------------------|
+  | fig            | Figure                                       |
+
 
 ## Notes
 - Snippet funcionality has [some bugs][2], I hope it will be fixed by Atom team.
