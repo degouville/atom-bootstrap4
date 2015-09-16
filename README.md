@@ -15,7 +15,7 @@ Key Features:
 
 ![Screenshot][2]
 
-## <a name="#top">Menu</a>
+## Menu
 | Templates              | Layout                                         | Content                                        |
 | --------------         | --------------                                 | --------------                                 |
 |  [Basic](#templates)   |  [Grid](#grid)                                 |  [Typography](#typography)                     |
@@ -371,7 +371,7 @@ Key Features:
 - Bar
 - Baz -->
 
-[**Back to Top**](#top)
+[**Back to Top**](#menu)
 
 <!-- Links -->
 [1]: http://v4-alpha.getbootstrap.com/
