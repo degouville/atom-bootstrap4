@@ -128,157 +128,254 @@ Key Features:
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   btn    Button
+  | fig            | Figure                                       |
   btnc   Button colors
+  | fig            | Figure                                       |
   btno   Button Outline
+  | fig            | Figure                                       |
   btna   Button <a>
+  | fig            | Figure                                       |
   btni   Button <input>
+  | fig            | Figure                                       |
   btnsz  Button sizes
+  | fig            | Figure                                       |
   btnbk  Button block
+  | fig            | Figure                                       |
   btnast Button state <a>
+  | fig            | Figure                                       |
   btnst  Button state
+  | fig            | Figure                                       |
   btnt   Button toggle
+  | fig            | Figure                                       |
   btnpc  Button plugin Checkbox
+  | fig            | Figure                                       |
   btnpr  Button plugin Radio
 ###### Button group
   | Aliases        | Description                                  |
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   btngr   'Button group
+  | fig            | Figure                                       |
   btngr   'Button group
+  | fig            | Figure                                       |
   btngrsi 'Button group size
+  | fig            | Figure                                       |
   btndr   'Button dropdown
+  | fig            | Figure                                       |
   btngrvr 'Button group
 ###### Button dropdown
   | Aliases        | Description                                  |
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   btndd   'Button dropdown
+  | fig            | Figure                                       |
   btndds  'Button dropdown (Split button)
+  | fig            | Figure                                       |
   btnddlg 'Button dropdown (Large)
+  | fig            | Figure                                       |
   btnddsm 'Button dropdown (Small)
+  | fig            | Figure                                       |
   btndu   'Button dropup
 ###### Forms
   | Aliases        | Description                                  |
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   form       Form Controls
+  | fig            | Figure                                       |
   formgr     Form group
+  | fig            | Figure                                       |
   formin     Form inline
+  | fig            | Figure                                       |
   formhl     Form hidden label
+  | fig            | Figure                                       |
   formgrid   Form w/ Grid
+  | fig            | Figure                                       |
   formcb     Form Checkbox
+  | fig            | Figure                                       |
   formcbin   Form Checkbox inline
+  | fig            | Figure                                       |
   formcbwola Form Checkbox w/o label
+  | fig            | Figure                                       |
   formra     Form Radio
+  | fig            | Figure                                       |
   formrain   Form Radio inline
+  | fig            | Figure                                       |
   formrawola Form Radio w/o label
+  | fig            | Figure                                       |
   formsc     Form Static Controls
+  | fig            | Figure                                       |
   formscin   Form Static Controls inline
+  | fig            | Figure                                       |
   formdis    Form disabled state
+  | fig            | Figure                                       |
   formreo    Form Readonly
+  | fig            | Figure                                       |
   formiptsz  Form input sizing
+  | fig            | Figure                                       |
   formsltsz  Form select sizing
+  | fig            | Figure                                       |
   formcolsz  Form column sizing
+  | fig            | Figure                                       |
   formht     Form Help text
+  | fig            | Figure                                       |
   formval    Form Validation
+  | fig            | Figure                                       |
   formctmcb  Form Custom checkbox
+  | fig            | Figure                                       |
   formctmra  Form Custom radio
+  | fig            | Figure                                       |
   formctmras Form Custom radio stacked
+  | fig            | Figure                                       |
   formctmsm  Form Custom select menu
+  | fig            | Figure                                       |
   Fformctmfb orm Custom File browser
 ###### Input group
   | Aliases        | Description                                  |
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   iptg      Input Group
+  | fig            | Figure                                       |
   iptgsz    Input Group Sizing
+  | fig            | Figure                                       |
   iptgadd   Checkboxes and radio addons
+  | fig            | Figure                                       |
   iptbtnadd Buttons addons
+  | fig            | Figure                                       |
   iptbtnwdd Buttons w/ dropdowns
+  | fig            | Figure                                       |
   iptbtnseg Segmented buttons
 ###### Dropdowns
   | Aliases        | Description                                  |
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   drp    Dropdown
+  | fig            | Figure                                       |
   drpbtn Dropdown button elements
+  | fig            | Figure                                       |
   drpagm Dropdown Alignement
+  | fig            | Figure                                       |
   drpmh  Dropdown menu header
+  | fig            | Figure                                       |
   drpmdv Dropdown menu divides
+  | fig            | Figure                                       |
   drpmds Dropdown menu disabled
 ###### Jumbotron
   | Aliases        | Description                                  |
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   jum  Jumbotron
+  | fig            | Figure                                       |
   jumf Fluid Jumbotron
 ###### Label
   | Aliases        | Description                                  |
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   lab   Label
+  | fig            | Figure                                       |
   labex Label heading example
+  | fig            | Figure                                       |
   labco Label context
+  | fig            | Figure                                       |
   labpi Label pill
 ###### Alerts
   | Aliases        | Description                                  |
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   alesu  Alert success
+  | fig            | Figure                                       |
   alein  Alert info
+  | fig            | Figure                                       |
   alewa  Alert warning
+  | fig            | Figure                                       |
   aleda  Alert danger
+  | fig            | Figure                                       |
   alesu  Alert success w/ link color
+  | fig            | Figure                                       |
   alein  Alert info w/ link color
+  | fig            | Figure                                       |
   alewa  Alert warning w/ link color
+  | fig            | Figure                                       |
   aleda  Alert danger w/ link color
+  | fig            | Figure                                       |
   aledis Alert dismissing
 ###### Card
   | Aliases        | Description                                  |
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   car       Cards
+  | fig            | Figure                                       |
   carct     Cards content type
+  | fig            | Figure                                       |
   carctwli  Cards content type w/o list
+  | fig            | Figure                                       |
   carctwimg Cards content type w/o img
+  | fig            | Figure                                       |
   carctt    Cards content type Title
+  | fig            | Figure                                       |
   carsz     Cards sizing
+  | fig            | Figure                                       |
   carszc    Cards sizing w/ Custom width
+  | fig            | Figure                                       |
   carta     Cards Text alignment
+  | fig            | Figure                                       |
   carhf     Cards header & footer
+  | fig            | Figure                                       |
   carhfq    Cards header & footer (Quote)
+  | fig            | Figure                                       |
   caric     Cards image caps
+  | fig            | Figure                                       |
   cario     Cards image overlays
+  | fig            | Figure                                       |
   carit     Cards inverted text
+  | fig            | Figure                                       |
   carbgc    Cards background color
+  | fig            | Figure                                       |
   cargr     Cards groups
+  | fig            | Figure                                       |
   cardk     Cards decks
+  | fig            | Figure                                       |
   carcol    Cards columns
+  | fig            | Figure                                       |
   cargr     Cards groups
+  | fig            | Figure                                       |
   cargr     Cards groups
 ###### Navs
   | Aliases        | Description                                  |
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   nav     Nav
+  | fig            | Figure                                       |
   navin   Nav inline
+  | fig            | Figure                                       |
   navtb   Nav tabs
+  | fig            | Figure                                       |
   navpl   Nav pills
+  | fig            | Figure                                       |
   navplsk Nav pills stacked
+  | fig            | Figure                                       |
   navtbdd Nav tabs w/ dropdown
+  | fig            | Figure                                       |
   navpldd Nav pills w/ dropdown
 ###### Navbar
   | Aliases        | Description                                  |
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   nvb       Navbar
+  | fig            | Figure                                       |
   nvbc      Navbar color
+  | fig            | Figure                                       |
   nvbconout Navbar container out
+  | fig            | Figure                                       |
   nvbconin  Navbar container in
+  | fig            | Figure                                       |
   nvbft     Navbar fixed top
+  | fig            | Figure                                       |
   nvbfb     Navbar fixed bottom
+  | fig            | Figure                                       |
   nvbclp    Navbar collapse
+  | fig            | Figure                                       |
   nvbtg     Navbar toggler
+  | fig            | Figure                                       |
   nvb       Navbar
 ###### Breadcrumb
   | Aliases        | Description                                  |
@@ -290,37 +387,54 @@ Key Features:
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   pag      Pagination
+  | fig            | Figure                                       |
   pagda    Pagination Disabled and active states
+  | fig            | Figure                                       |
   pagsz    Pagination
+  | fig            | Figure                                       |
   pager    Pagination pager
+  | fig            | Figure                                       |
   pageral  Pagination pager aligned
+  | fig            | Figure                                       |
   pagerald Pagination pager aligned & disabled
 ###### Progress
   | Aliases        | Description                                  |
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   pro     Progress
+  | fig            | Figure                                       |
   proco   Progress context
+  | fig            | Figure                                       |
   procost Progress striped
+  | fig            | Figure                                       |
   prostan Progress
 ###### List group
   | Aliases        | Description                                  |
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   lis    List
+  | fig            | Figure                                       |
   lisla  List label
+  | fig            | Figure                                       |
   lisli  List linked
+  | fig            | Figure                                       |
   lisbtn List button
+  | fig            | Figure                                       |
   lisdis List disabled items
+  | fig            | Figure                                       |
   lisco  List context
+  | fig            | Figure                                       |
   liscc  List custom content
 ###### Modal
   | Aliases        | Description                                  |
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   mod   Modal
+  | fig            | Figure                                       |
   modsz Modal sizes
+  | fig            | Figure                                       |
   modgr Modal grid
+  | fig            | Figure                                       |
   modcb Modal content based
 ###### Scrollspy
   | Aliases        | Description                                  |
@@ -337,34 +451,48 @@ Key Features:
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   pop   Popover
+  | fig            | Figure                                       |
   popdi Popover direction
 ###### Collapse
   | Aliases        | Description                                  |
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   coll  Collapse
+  | fig            | Figure                                       |
   colla Collapse accordion
 ###### Carousel
   | Aliases        | Description                                  |
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   caro   Carousel
+  | fig            | Figure                                       |
   caroca Carousel caption
 ###### Utilities
   | Aliases        | Description                                  |
   | :------------- | :--------------------------------------------|
   | fig            | Figure                                       |
   texta     Text alignment
+  | fig            | Figure                                       |
   textt     Text transform
+  | fig            | Figure                                       |
   textcol   Text context colors
+  | fig            | Figure                                       |
   textbgcol Text context background colors
+  | fig            | Figure                                       |
   cloi      Close icon
+  | fig            | Figure                                       |
   cenb      Center block
+  | fig            | Figure                                       |
   cle       Clearfix
+  | fig            | Figure                                       |
   hid       Hidden content
+  | fig            | Figure                                       |
   inv       Invisible content
+  | fig            | Figure                                       |
   sro       Screen reader
+  | fig            | Figure                                       |
   imgre     Image replacement
+  | fig            | Figure                                       |
   emb       Responsive embeds
 
 ## Notes
@@ -374,3 +502,4 @@ Key Features:
 <!-- Links -->
 [1]: http://v4-alpha.getbootstrap.com/
 [2]: https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif
+  | fig            | Figure                                       |
