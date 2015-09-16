@@ -16,13 +16,13 @@ Key Features:
 ![Screenshot][2]
 
 ## Menu
-  | Foo            | Bar                                   |
-  | -------------- | ------------------------------------- |
-  | Item One       | Item Two                              |
-  | Item One       | Item Two                              |
-  | Item One       | Item Two                              |
-  | Item One       | Item Two                              |
-  | Item One       | Item Two                              |
+| Foo            | Bar                                   |
+| -------------- | ------------------------------------- |
+| Item One       | Item Two                              |
+| Item One       | Item Two                              |
+| Item One       | Item Two                              |
+| Item One       | Item Two                              |
+| Item One       | Item Two                              |
 
 <!-- Templates
 Layout
