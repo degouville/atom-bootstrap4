@@ -1,7 +1,5 @@
 '.text.html': # Work only with HTML
 
-# TODO: Add others templates
-
   'HTML5 - Bootstrap 4 ':
     'prefix': 'html-b4'
     'body': """
