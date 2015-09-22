@@ -7,6 +7,6 @@
     'prefix': 'too'
     'body': """
       <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="${1:top|right|bottom|left}" title="Tooltip on ${1:top|right|bottom|left}">
-        Tooltip on ${1:top|right|bottom|left}
+        ${2:Tooltip on ${1:top|right|bottom|left}}
       </button>
     """

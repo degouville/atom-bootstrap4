@@ -5,9 +5,9 @@
     'prefix': 'lis'
     'body': """
       <ul class="list-group">
-        <li class="list-group-item">Cras justo odio</li>
-        <li class="list-group-item">Dapibus ac facilisis in</li>
-        <li class="list-group-item">Morbi leo risus</li>
+        <li class="list-group-item">${1:Cras justo odio}</li>
+        <li class="list-group-item">${1:Dapibus ac facilisis in}</li>
+        <li class="list-group-item">${1:Morbi leo risus}</li>
       </ul>
     """
 
@@ -16,16 +16,16 @@
     'body': """
       <ul class="list-group">
         <li class="list-group-item">
-          <span class="label label-default label-pill pull-right">14</span>
-          Cras justo odio
+          <span class="label label-default label-pill pull-right">${1:14}</span>
+          ${2:Cras justo odio}
         </li>
         <li class="list-group-item">
-          <span class="label label-default label-pill pull-right">2</span>
-          Dapibus ac facilisis in
+          <span class="label label-default label-pill pull-right">${1:2}</span>
+          ${2:Dapibus ac facilisis in}
         </li>
         <li class="list-group-item">
-          <span class="label label-default label-pill pull-right">1</span>
-          Morbi leo risus
+          <span class="label label-default label-pill pull-right">${1:1}</span>
+          ${2:Morbi leo risus}
         </li>
       </ul>
     """
@@ -34,11 +34,9 @@
     'prefix': 'lisli'
     'body': """
       <div class="list-group">
-        <a href="#" class="list-group-item active">
-          Cras justo odio
-        </a>
-        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-        <a href="#" class="list-group-item">Morbi leo risus</a>
+        <a href="#" class="list-group-item active">${1:Cras justo odio}</a>
+        <a href="#" class="list-group-item">${1:Dapibus ac facilisis in}</a>
+        <a href="#" class="list-group-item">${1:Morbi leo risus}</a>
       </div>
     """
 
@@ -46,9 +44,9 @@
     'prefix': 'lisbtn'
     'body': """
       <div class="list-group">
-        <button type="button" class="list-group-item">Cras justo odio</button>
-        <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
-        <button type="button" class="list-group-item">Morbi leo risus</button>
+        <button type="button" class="list-group-item">${1:Cras justo odio}</button>
+        <button type="button" class="list-group-item">${1:Dapibus ac facilisis in}</button>
+        <button type="button" class="list-group-item">${1:Morbi leo risus}</button>
       </div>
     """
 
@@ -56,11 +54,9 @@
     'prefix': 'lisdis'
     'body': """
       <div class="list-group">
-        <a href="#" class="list-group-item disabled">
-          Cras justo odio
-        </a>
-        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-        <a href="#" class="list-group-item">Morbi leo risus</a>
+        <a href="#" class="list-group-item disabled">${1:Cras justo odio}</a>
+        <a href="#" class="list-group-item">${1:Dapibus ac facilisis in}</a>
+        <a href="#" class="list-group-item">${1:Morbi leo risus}</a>
       </div>
     """
 
@@ -68,16 +64,16 @@
     'prefix': 'lisco'
     'body': """
       <ul class="list-group">
-        <li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>
-        <li class="list-group-item list-group-item-info">Cras sit amet nibh libero</li>
-        <li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
-        <li class="list-group-item list-group-item-danger">Vestibulum at eros</li>
+        <li class="list-group-item list-group-item-${1:success|info|warning|danger}">${2:Dapibus ac facilisis in}</li>
       </ul>
+    """
+
+# TODO: Add snip to setting
+  'List context (div -> a href...) - Bootstrap 4':
+    'prefix': 'liscoa'
+    'body': """
       <div class="list-group">
-        <a href="#" class="list-group-item list-group-item-success">Dapibus ac facilisis in</a>
-        <a href="#" class="list-group-item list-group-item-info">Cras sit amet nibh libero</a>
-        <a href="#" class="list-group-item list-group-item-warning">Porta ac consectetur ac</a>
-        <a href="#" class="list-group-item list-group-item-danger">Vestibulum at eros</a>
+        <a href="#" class="list-group-item list-group-item-${1:success|info|warning|danger}">${2:Dapibus ac facilisis in}</a>
       </div>
     """
 
@@ -85,17 +81,17 @@
     'prefix': 'liscc'
     'body': """
       <div class="list-group">
-        <a href="#" class="list-group-item active">
-          <h4 class="list-group-item-heading">List group item heading</h4>
-          <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <a href="${3:#}" class="list-group-item active">
+          <h4 class="list-group-item-heading">${1:List group item heading}</h4>
+          <p class="list-group-item-text">${2:Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.}</p>
         </a>
-        <a href="#" class="list-group-item">
-          <h4 class="list-group-item-heading">List group item heading</h4>
-          <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <a href="${3:#}" class="list-group-item">
+          <h4 class="list-group-item-heading">${1:List group item heading}</h4>
+          <p class="list-group-item-text">${2:Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.}</p>
         </a>
-        <a href="#" class="list-group-item">
-          <h4 class="list-group-item-heading">List group item heading</h4>
-          <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <a href="${3:#}" class="list-group-item">
+          <h4 class="list-group-item-heading">${1:List group item heading}</h4>
+          <p class="list-group-item-text">${2:Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.}</p>
         </a>
       </div>
     """

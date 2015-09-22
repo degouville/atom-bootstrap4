@@ -28,13 +28,22 @@
       </div>
     """
 
-# CRC
-  'Row - Bootstrap 4':
+  # CRC
+  'Simple grid - Bootstrap 4':
     'prefix': 'row'
     'body': """
-      <div class="row">
-        $1
+      <div class="container">
+        <div class="row">
+          ${4:
+
+          <div class="col-${1:xs|sm|md|lg|xl}-${2:1-12}">
+            $3
+          </div>
+
+          }
+        </div>
       </div>
+
     """
 
   '3 Columns grid - Bootstrap 4':
@@ -42,14 +51,14 @@
     'body': """
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            One of three columns
+          <div class="${1:col-md-4}">
+            ${2:One of three columns}
           </div>
-          <div class="col-md-4">
-            One of three columns
+          <div class="${1:col-md-4}">
+            ${2:One of three columns}
           </div>
-          <div class="col-md-4">
-            One of three columns
+          <div class="${1:col-md-4}">
+            ${2:One of three columns}
           </div>
         </div>
       </div>
@@ -60,14 +69,14 @@
     'body': """
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            One of three columns
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-4}">
+            ${4:One of three columns}
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            One of three columns
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-4}">
+            ${4:One of three columns}
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            One of three columns
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-4}">
+            ${4:One of three columns}
           </div>
         </div>
       </div>
@@ -78,11 +87,11 @@
     'body': """
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            One of two columns
+          <div class="${1:col-md-6}">
+            ${2:One of two columns}
           </div>
-          <div class="col-md-6">
-            One of two columns
+          <div class="${1:col-md-6}">
+            ${2:One of two columns}
           </div>
         </div>
       </div>
@@ -93,11 +102,11 @@
     'body': """
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-md-6">
-            One of two columns
+          <div class="${1:col-xs-12} ${2:col-md-6}">
+            ${3:One of two columns}
           </div>
-          <div class="col-xs-12 col-md-6">
-            One of two columns
+          <div class="${1:col-xs-12} ${2:col-md-6}">
+            ${3:One of two columns}
           </div>
         </div>
       </div>
@@ -108,17 +117,17 @@
     'body': """
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
-            One of four columns
+          <div class="${1:col-md-3}">
+            ${2:One of four columns}
           </div>
-          <div class="col-md-3">
-            One of four columns
+          <div class="${1:col-md-3}">
+            ${2:One of four columns}
           </div>
-          <div class="col-md-3">
-            One of four columns
+          <div class="${1:col-md-3}">
+            ${2:One of four columns}
           </div>
-          <div class="col-md-3">
-            One of four columns
+          <div class="${1:col-md-3}">
+            ${2:One of four columns}
           </div>
         </div>
       </div>
@@ -129,17 +138,17 @@
     'body': """
       <div class="container">
         <div class="row">
-          <div class="col-xs-6 col-md-3">
-            One of four columns
+          <div class="${1:col-xs-6} ${2:col-md-3}">
+            ${3:One of four columns}
           </div>
-          <div class="col-xs-6 col-md-3">
-            One of four columns
+          <div class="${1:col-xs-6} ${2:col-md-3}">
+            ${3:One of four columns}
           </div>
-          <div class="col-xs-6 col-md-3">
-            One of four columns
+          <div class="${1:col-xs-6} ${2:col-md-3}">
+            ${3:One of four columns}
           </div>
-          <div class="col-xs-6 col-md-3">
-            One of four columns
+          <div class="${1:col-xs-6} ${2:col-md-3}">
+            ${3:One of four columns}
           </div>
         </div>
       </div>
@@ -150,23 +159,23 @@
     'body': """
       <div class="container">
         <div class="row">
-          <div class="col-md-2">
-            One of six columns
+          <div class="${1:col-md-2}">
+            ${2:One of six columns}
           </div>
-          <div class="col-md-2">
-            One of six columns
+          <div class="${1:col-md-2}">
+            ${2:One of six columns}
           </div>
-          <div class="col-md-2">
-            One of six columns
+          <div class="${1:col-md-2}">
+            ${2:One of six columns}
           </div>
-          <div class="col-md-2">
-            One of six columns
+          <div class="${1:col-md-2}">
+            ${2:One of six columns}
           </div>
-          <div class="col-md-2">
-            One of six columns
+          <div class="${1:col-md-2}">
+            ${2:One of six columns}
           </div>
-          <div class="col-md-2">
-            One of six columns
+          <div class="${1:col-md-2}">
+            ${2:One of six columns}
           </div>
         </div>
       </div>
@@ -177,41 +186,41 @@
     'body': """
       <div class="container">
         <div class="row">
-          <div class="col-md-1">
-            One of twelve columns
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
           </div>
-          <div class="col-md-1">
-            One of twelve columns
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
           </div>
-          <div class="col-md-1">
-            One of twelve columns
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
           </div>
-          <div class="col-md-1">
-            One of twelve columns
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
           </div>
-          <div class="col-md-1">
-            One of twelve columns
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
           </div>
-          <div class="col-md-1">
-            One of twelve columns
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
           </div>
-          <div class="col-md-1">
-            One of twelve columns
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
           </div>
-          <div class="col-md-1">
-            One of twelve columns
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
           </div>
-          <div class="col-md-1">
-            One of twelve columns
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
           </div>
-          <div class="col-md-1">
-            One of twelve columns
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
           </div>
-          <div class="col-md-1">
-            One of twelve columns
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
           </div>
-          <div class="col-md-1">
-            One of twelve columns
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
           </div>
         </div>
       </div>
@@ -222,41 +231,41 @@
     'body': """
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
-            One of twelve columns
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
-            One of twelve columns
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
-            One of twelve columns
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
-            One of twelve columns
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
-            One of twelve columns
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
-            One of twelve columns
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
-            One of twelve columns
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
-            One of twelve columns
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
-            One of twelve columns
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
-            One of twelve columns
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
-            One of twelve columns
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-2 col-lg-1">
-            One of twelve columns
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
           </div>
         </div>
       </div>
