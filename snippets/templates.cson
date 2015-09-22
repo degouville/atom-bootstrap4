@@ -13,13 +13,13 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>$1</title>
 
-        <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/${2:v4-dev/dist}/css/bootstrap.css">
       </head>
       <body>
-        <h1>${2:Hello, world!}</h1>
+        <h1>${3:Hello, world!}</h1>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+        <script src="https://cdn.rawgit.com/twbs/bootstrap/${4:v4-dev/dist}/js/bootstrap.js"></script>
       </body>
     </html>
     """
