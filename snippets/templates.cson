@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
       </head>
       <body>
-        <h1>$2Hello, world!</h1>
+        <h1>${2:Hello, world!}</h1>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
@@ -36,12 +36,14 @@
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="$1/favicon.ico">
+        <link rel="icon" href="${1:/favicon.ico}">
 
         <title>$2</title>
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="${3:https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css}">
+        <!-- ${4:My} CSS -->
+        <link rel="stylesheet" href="${5:css/style.css}">
       </head>
       <body>
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -69,92 +71,35 @@
         </div><!-- /.container -->
 
         <!-- jQuery first, then Bootstrap JS. -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/${6:2.1.4}/jquery.min.js"></script>
+        <script src="https://cdn.rawgit.com/twbs/bootstrap/${7:v4-dev/dist}/js/bootstrap.js"></script>
       </body>
     </html>
     """
 
-  'Starter template - Bootstrap 4':
-    'prefix': 'html-st'
-    'body': """
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <link rel="icon" href="$1/favicon.ico">
-
-        <title>$2</title>
-
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
-      </head>
-      <body>
-
-        <nav class="navbar navbar-inverse navbar-static-top">
-          <a class="navbar-brand" href="#">Project name</a>
-          <ul class="nav nav-pills">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </nav>
-
-        <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron">
-          <div class="container">
-            <h1>Hello, world!</h1>
-            <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
-          </div>
-        </div>
-
-        <div class="container">
-          <!-- Example row of columns -->
-          <div class="row">
-            <div class="col-md-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-            </div>
-            <div class="col-md-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-           </div>
-            <div class="col-md-4">
-              <h2>Heading</h2>
-              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-            </div>
-          </div>
-
-          <hr>
-
-          <footer>
-            <p>© Company 2014</p>
-          </footer>
-        </div> <!-- /container -->
-
-      </body>
-    </html>
-    """
+# TODO: Add all templates
 
   'CSS & JS\'s CDN - Bootstrap 4 ':
     'prefix': 'cdn-b4'
     'body': """
-    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+      <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
     """
+
+  'CSS \'s CDN - Bootstrap 4 ':
+    'prefix': 'cdncs'
+    'body': """
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/${1:v4-dev/dist}/css/bootstrap.css">
+    """
+
+  'JS \'s CDN - Bootstrap 4 ':
+    'prefix': 'cdnjs'
+    'body': """
+      <!-- jQuery first, then Bootstrap JS. -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/${1:2.1.4}/jquery.min.js"></script>
+      <script src="https://cdn.rawgit.com/twbs/bootstrap/${2:v4-dev/dist}/js/bootstrap.js"></script>
+    """
+
+# TODO: Add Custom/Local snips 4 css & js
