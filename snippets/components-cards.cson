@@ -5,11 +5,11 @@
     'prefix': 'car'
     'body': """
       <div class="card">
-        <img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap">
+        <img class="card-img-top" data-src="${1:holder.js/100%x180/}" alt="${2:Card image cap}">
         <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Button</a>
+          <h4 class="card-title">${3:Card title}</h4>
+          <p class="card-text">${4:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>
+          <a href="${5:#}" class="btn btn-primary">${6:Button}</a>
         </div>
       </div>
     """
@@ -18,19 +18,19 @@
     'prefix': 'carct'
     'body': """
       <div class="card">
-        <img class="card-img-top" data-src="holder.js/100%x180/?text=Image cap" alt="Card image cap">
+        <img class="card-img-top" data-src="${1:holder.js/100%x180/?text=Image cap}" alt="${2:Card image cap}">
         <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h4 class="card-title">${3:Card title}</h4>
+          <p class="card-text">${4:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
+          <li class="list-group-item">${5:Cras justo odio}</li>
+          <li class="list-group-item">${5:Dapibus ac facilisis in}</li>
+          <li class="list-group-item">${5:Vestibulum at eros}</li>
         </ul>
         <div class="card-block">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+          <a href="${6:#}" class="card-link">${7:Card link}</a>
+          <a href="${6:#}" class="card-link">${7:Another link}</a>
         </div>
       </div>
     """
@@ -39,9 +39,9 @@
     'prefix': 'carctwli'
     'body': """
       <div class="card">
-        <img class="card-img-top" data-src="holder.js/100%x180/?text=Image cap" alt="Card image cap">
+        <img class="card-img-top" data-src="${2:holder.js/100%x180/?text=Image cap}" alt="${3:Card image cap}">
         <div class="card-block">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text">${1:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>
         </div>
       </div>
     """
@@ -50,10 +50,10 @@
     'prefix': 'carctwimg'
     'body': """
       <div class="card card-block">
-        <h4 class="card-title">Card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
+        <h4 class="card-title">${3:Card title}</h4>
+        <p class="card-text">${1:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>
+        <a href="${3:#}" class="card-link">${2:Card link}</a>
+        <a href="${3:#}" class="card-link">${2:Another link}</a>
       </div>
     """
 
@@ -62,14 +62,14 @@
     'body': """
       <div class="card">
         <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+          <h4 class="card-title">${1:Card title}</h4>
+          <h6 class="card-subtitle text-muted">${2:Support card subtitle}</h6>
         </div>
-        <img data-src="holder.js/100%x180/?text=Image" alt="Card image">
+        <img data-src="${3:holder.js/100%x180/?text=Image}" alt="${4:Card image}">
         <div class="card-block">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+          <p class="card-text">${5:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>
+          <a href="${6:#}" class="card-link">${7:Card link}</a>
+          <a href="${6:#}" class="card-link">${7:Another link}</a>
         </div>
       </div>
     """
@@ -80,16 +80,16 @@
       <div class="row">
         <div class="col-sm-6">
           <div class="card card-block">
-            <h3 class="card-title">Special title treatment</h3>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h3 class="card-title">${1:Special title treatment}</h3>
+            <p class="card-text">${2:With supporting text below as a natural lead-in to additional content.}</p>
+            <a href="${3:#}" class="btn btn-primary">${4:Go somewhere}</a>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="card card-block">
-            <h3 class="card-title">Special title treatment</h3>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h3 class="card-title">${1:Special title treatment}</h3>
+            <p class="card-text">${2:With supporting text below as a natural lead-in to additional content.}</p>
+            <a href="${3:#}" class="btn btn-primary">${4:Go somewhere}</a>
           </div>
         </div>
       </div>
@@ -99,9 +99,9 @@
     'prefix': 'carszc'
     'body': """
       <div class="card card-block" style="width: 20rem;">
-        <h3 class="card-title">Special title treatment</h3>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h3 class="card-title">${1:Special title treatment}</h3>
+        <p class="card-text">${2:With supporting text below as a natural lead-in to additional content.}</p>
+        <a href="${3:#}" class="btn btn-primary">${4:Go somewhere}</a>
       </div>
     """
 
@@ -109,21 +109,21 @@
     'prefix': 'carta'
     'body': """
       <div class="card card-block">
-        <h4 class="card-title">Special title treatment</h4>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h4 class="card-title">${1:Special title treatment}</h4>
+        <p class="card-text">${2:With supporting text below as a natural lead-in to additional content.}</p>
+        <a href="${3:#}" class="btn btn-primary">${4:Go somewhere}</a>
       </div>
 
       <div class="card card-block text-center">
-        <h4 class="card-title">Special title treatment</h4>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h4 class="card-title">${1:Special title treatment}</h4>
+        <p class="card-text">${2:With supporting text below as a natural lead-in to additional content.}</p>
+        <a href="${3:#}" class="btn btn-primary">${4:Go somewhere}</a>
       </div>
 
       <div class="card card-block text-right">
-        <h4 class="card-title">Special title treatment</h4>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h4 class="card-title">${1:Special title treatment}</h4>
+        <p class="card-text">${2:With supporting text below as a natural lead-in to additional content.}</p>
+        <a href="${3:#}" class="btn btn-primary">${4:Go somewhere}</a>
       </div>
     """
 
@@ -135,9 +135,9 @@
         Featured
       </div>
       <div class="card-block">
-        <h4 class="card-title">Special title treatment</h4>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h4 class="card-title">${1:Special title treatment}</h4>
+        <p class="card-text">${2:With supporting text below as a natural lead-in to additional content.}</p>
+        <a href="${3:#}" class="btn btn-primary">${4:Go somewhere}</a>
       </div>
     </div>
     """
@@ -151,8 +151,8 @@
         </div>
         <div class="card-block">
           <blockquote class="card-blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            <p>${1:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.}</p>
+            <footer>${2:Someone famous in }<cite title="${3:Source Title}">${3:Source Title}</cite></footer>
           </blockquote>
         </div>
       </div>
@@ -162,20 +162,20 @@
     'prefix': 'caric'
     'body': """
       <div class="card">
-        <img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap">
+        <img class="card-img-top" data-src="${1:holder.js/100%x180/}" alt="${2:Card image cap}">
         <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <h4 class="card-title">${3:Card title}</h4>
+          <p class="card-text">${4:This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>
+          <p class="card-text"><small class="text-muted">${6:Last updated 3 mins ago}</small></p>
         </div>
       </div>
       <div class="card">
         <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <h4 class="card-title">${3:Card title}</h4>
+          <p class="card-text">${4:This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>
+          <p class="card-text"><small class="text-muted">${6:Last updated 3 mins ago}</small></p>
         </div>
-        <img class="card-img-bottom" data-src="holder.js/100%x180/" alt="Card image cap">
+        <img class="card-img-bottom" data-src="${1:holder.js/100%x180/}" alt="${2:Card image cap}">
       </div>
     """
 
@@ -185,9 +185,9 @@
       <div class="card card-inverse">
         <img class="card-img" data-src="holder.js/100%x270/#55595c:#373a3c/text:Card image" alt="Card image">
         <div class="card-img-overlay">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <h4 class="card-title">${3:Card title}</h4>
+          <p class="card-text">${4:This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>
+          <p class="card-text"><small class="text-muted">${6:Last updated 3 mins ago}</small></p>
         </div>
       </div>
     """
@@ -197,9 +197,9 @@
     'body': """
       <div class="card card-inverse" style="background-color: #333; border-color: #333;">
         <div class="card-block">
-          <h3 class="card-title">Special title treatment</h3>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Button</a>
+          <h3 class="card-title">${1:Special title treatment}</h3>
+          <p class="card-text">${2:With supporting text below as a natural lead-in to additional content.}</p>
+          <a href="${3:#}" class="btn btn-primary">${4:Button}</a>
         </div>
       </div>
     """
@@ -210,8 +210,8 @@
       <div class="card card-inverse card-${1:primary|success|info|warning|danger} text-center">
         <div class="card-block">
           <blockquote class="card-blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            <p>${7:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.}</p>
+            <footer>${8:Someone famous in }<cite title="${9:Source Title}">${9:Source Title}</cite></footer>
           </blockquote>
         </div>
       </div>
@@ -222,27 +222,27 @@
     'body': """
       <div class="card-group">
         <div class="card">
-          <img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap">
+          <img class="card-img-top" data-src="${1:holder.js/100%x180/}" alt="${2:Card image cap}">
           <div class="card-block">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h4 class="card-title">${3:Card title}</h4>
+            <p class="card-text">${5:This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>
+            <p class="card-text"><small class="text-muted">${6:Last updated 3 mins ago}</small></p>
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap">
+          <img class="card-img-top" data-src="${1:holder.js/100%x180/}" alt="${2:Card image cap}">
           <div class="card-block">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h4 class="card-title">${3:Card title}</h4>
+            <p class="card-text">${5:This card has supporting text below as a natural lead-in to additional content.}</p>
+            <p class="card-text"><small class="text-muted">${6:Last updated 3 mins ago}</small></p>
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap">
+          <img class="card-img-top" data-src="${1:holder.js/100%x180/}" alt="${2:Card image cap}">
           <div class="card-block">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h4 class="card-title">${3:Card title}</h4>
+            <p class="card-text">${5:This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.}</p>
+            <p class="card-text"><small class="text-muted">${6:Last updated 3 mins ago}</small></p>
           </div>
         </div>
       </div>
@@ -254,27 +254,27 @@
       <div class="card-deck-wrapper">
         <div class="card-deck">
           <div class="card">
-            <img class="card-img-top" data-src="holder.js/100%x200/" alt="Card image cap">
+            <img class="card-img-top" data-src="${1:holder.js/100%x200/}" alt="${2:Card image cap}">
             <div class="card-block">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h4 class="card-title">${3:Card title}</h4>
+              <p class="card-text">${5:This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>
+              <p class="card-text"><small class="text-muted">${6:Last updated 3 mins ago}</small></p>
             </div>
           </div>
           <div class="card">
-            <img class="card-img-top" data-src="holder.js/100%x200/" alt="Card image cap">
+            <img class="card-img-top" data-src="${1:holder.js/100%x200/}" alt="${2:Card image cap}">
             <div class="card-block">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h4 class="card-title">${3:Card title}</h4>
+              <p class="card-text">${5:This card has supporting text below as a natural lead-in to additional content.}</p>
+              <p class="card-text"><small class="text-muted">${6:Last updated 3 mins ago}</small></p>
             </div>
           </div>
           <div class="card">
-            <img class="card-img-top" data-src="holder.js/100%x200/" alt="Card image cap">
+            <img class="card-img-top" data-src="${1:holder.js/100%x200/}" alt="${2:Card image cap}">
             <div class="card-block">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h4 class="card-title">${3:Card title}</h4>
+              <p class="card-text">${5:This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.}</p>
+              <p class="card-text"><small class="text-muted">${6:Last updated 3 mins ago}</small></p>
             </div>
           </div>
         </div>
@@ -286,10 +286,10 @@
     'body': """
       <div class="card-columns">
         <div class="card">
-          <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap">
+          <img class="card-img-top" data-src="${1:holder.js/100%x160/}" alt="${2:Card image cap}">
           <div class="card-block">
-            <h4 class="card-title">Card title that wraps to a new line</h4>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h4 class="card-title">{4:Card title that wraps to a new line}</h4>
+            <p class="card-text">${5:This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>
           </div>
         </div>
         <div class="card card-block">
@@ -297,51 +297,51 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>
               <small class="text-muted">
-                Someone famous in <cite title="Source Title">Source Title</cite>
+                ${8:Someone famous in }<cite title="${9:Source Title}">Source Title</cite>
               </small>
             </footer>
           </blockquote>
         </div>
         <div class="card">
-          <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap">
+          <img class="card-img-top" data-src="${1:holder.js/100%x160/}" alt="${2:Card image cap}">
           <div class="card-block">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h4 class="card-title">${3:Card title}</h4>
+            <p class="card-text">${5:This card has supporting text below as a natural lead-in to additional content.}</p>
+            <p class="card-text"><small class="text-muted">${6:Last updated 3 mins ago}</small></p>
           </div>
         </div>
         <div class="card card-block card-inverse card-primary text-center">
           <blockquote class="card-blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+            <p>${7:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.}</p>
             <footer>
               <small>
-                Someone famous in <cite title="Source Title">Source Title</cite>
+                ${8:Someone famous in }<cite title="${9:Source Title}">${9:Source Title}</cite>
               </small>
             </footer>
           </blockquote>
         </div>
         <div class="card card-block text-center">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <h4 class="card-title">${3:Card title}</h4>
+          <p class="card-text">${5:This card has supporting text below as a natural lead-in to additional content.}</p>
+          <p class="card-text"><small class="text-muted">${6:Last updated 3 mins ago}</small></p>
         </div>
         <div class="card">
-          <img class="card-img" data-src="holder.js/100%x260/" alt="Card image">
+          <img class="card-img" data-src="${1:holder.js/100%x260/}" alt="${2:Card image}">
         </div>
         <div class="card card-block text-right">
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>
               <small class="text-muted">
-                Someone famous in <cite title="Source Title">Source Title</cite>
+                ${8:Someone famous in }<cite title="${9:Source Title}">${9:Source Title}</cite>
               </small>
             </footer>
           </blockquote>
         </div>
         <div class="card card-block">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <h4 class="card-title">${3:Card title}</h4>
+          <p class="card-text">${5:This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.}</p>
+          <p class="card-text"><small class="text-muted">${6:Last updated 3 mins ago}</small></p>
         </div>
       </div>
     """
