@@ -7,7 +7,7 @@
     'prefix': 'alesu'
     'body': """
       <div class="alert alert-success" role="alert">
-        <strong>Well done!</strong> You successfully read this important alert message.
+        ${1:<strong>Well done!</strong> You successfully read this important alert message.}
       </div>
     """
 
@@ -15,7 +15,7 @@
     'prefix': 'alein'
     'body': """
       <div class="alert alert-info" role="alert">
-        <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+        ${1:<strong>Heads up!</strong> This alert needs your attention, but it's not super important.}
       </div>
     """
 
@@ -23,7 +23,7 @@
     'prefix': 'alewa'
     'body': """
       <div class="alert alert-warning" role="alert">
-        <strong>Warning!</strong> Better check yourself, you're not looking too good.
+        ${1:<strong>Warning!</strong> Better check yourself, you're not looking too good.}
       </div>
     """
 
@@ -31,7 +31,7 @@
     'prefix': 'aleda'
     'body': """
       <div class="alert alert-danger" role="alert">
-        <strong>Oh snap!</strong> Change a few things up and try submitting again.
+        ${1:<strong>Oh snap!</strong> Change a few things up and try submitting again.}
       </div>
     """
 
@@ -40,7 +40,7 @@
     'prefix': 'alesu'
     'body': """
       <div class="alert alert-success" role="alert">
-        <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
+        ${1:<strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.}
       </div>
     """
 
@@ -48,7 +48,7 @@
     'prefix': 'alein'
     'body': """
       <div class="alert alert-info" role="alert">
-        <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+        ${1:<strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.}
       </div>
     """
 
@@ -56,7 +56,7 @@
     'prefix': 'alewa'
     'body': """
       <div class="alert alert-warning" role="alert">
-        <strong>Warning!</strong> Better check yourself, you're <a href="#" class="alert-link">not looking too good</a>.
+        ${1:<strong>Warning!</strong> Better check yourself, you're <a href="#" class="alert-link">not looking too good</a>.}
       </div>
     """
 
@@ -64,18 +64,18 @@
     'prefix': 'aleda'
     'body': """
       <div class="alert alert-danger" role="alert">
-        <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+        ${1:<strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.}
       </div>
     """
 
   'Alert dismissing - Bootstrap 4':
     'prefix': 'aledis'
     'body': """
-      <div class="alert alert-warning alert-dismissible fade in" role="alert">
+      <div class="alert alert-${2:success|info|warning|danger} alert-dismissible fade in" role="alert">
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
           <span class="sr-only">Close</span>
         </button>
-        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+        ${1:<strong>Holy guacamole!</strong> You should check in on some of those fields below.}
       </div>
     """
