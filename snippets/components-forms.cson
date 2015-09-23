@@ -7,31 +7,31 @@
       <form>
         <fieldset class="form-group">
           <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="${10:Enter email}">
           <small class="text-muted">We'll never share your email with anyone else.</small>
         </fieldset>
         <fieldset class="form-group">
           <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="${10:Password}">
         </fieldset>
         <fieldset class="form-group">
-          <label for="exampleSelect1">Example select</label>
-          <select class="form-control" id="exampleSelect1">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+          <label for="${1:exampleSelect1}">Example select</label>
+          <select class="form-control" id="e${1:xampleSelect}1">
+            <option>1${2:</o}ption>
+            <option>${2:2}</option>
+            <option>${2:3}</option>
+            <option>${2:4}</option>
+            <option>${2:5}</option>
           </select>
         </fieldset>
         <fieldset class="form-group">
-          <label for="exampleSelect2">Example multiple select</label>
-          <select multiple class="form-control" id="exampleSelect2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+          <label for="${1:exampleSelect2}">Example multiple select</label>
+          <select multiple class="form-control" id="${1:exampleSelect2}">
+            <option>${2:1}</option>
+            <option>${2:2}</option>
+            <option>${2:3}</option>
+            <option>${2:4}</option>
+            <option>${2:5}</option>
           </select>
         </fieldset>
         <fieldset class="form-group">
@@ -41,7 +41,7 @@
         <fieldset class="form-group">
           <label for="exampleInputFile">File input</label>
           <input type="file" class="form-control-file" id="exampleInputFile">
-          <small class="text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+          <small class="text-muted">This is some placeholder b${10:lock-level help text for the above input. It's a bit lighter and easily wraps to a new line.</smal}l>
         </fieldset>
         <div class="radio">
           <label>
@@ -76,11 +76,11 @@
       <form>
         <fieldset class="form-group">
           <label for="formGroupExampleInput">Example label</label>
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="${10:Example input}">
         </fieldset>
         <fieldset class="form-group">
           <label for="formGroupExampleInput2">Another label</label>
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="${10:Another input}">
         </fieldset>
       </form>
     """
@@ -90,12 +90,12 @@
     'body': """
       <form class="form-inline">
         <div class="form-group">
-          <label for="exampleInputName2">Name</label>
-          <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+          <label for="${1:exampleInputName2}">Name</label>
+          <input type="text" class="form-control" id="${1:exampleInputName2}" placeholder="${10:Jane Doe}">
         </div>
         <div class="form-group">
-          <label for="exampleInputEmail2">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+          <label for="${2:exampleInputEmail2}">Email</label>
+          <input type="email" class="form-control" id="${2:exampleInputEmail2}" placeholder="${10:jane.doe@example.com}">
         </div>
         <button type="submit" class="btn btn-primary">Send invitation</button>
       </form>
@@ -105,8 +105,8 @@
     'prefix': 'formhl'
     'body': """
       <div class="form-group">
-        <label class="sr-only" for="exampleInputEmail3">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email">
+        <label class="sr-only" for="${1:exampleInputEmail3}">Email address</label>
+        <input type="email" class="form-control" id="${1:exampleInputEmail3}" placeholder="${10:Enter email}">
       </div>
     """
 
@@ -115,15 +115,15 @@
     'body': """
       <form>
         <div class="form-group row">
-          <label for="inputEmail3" class="col-sm-2 form-control-label">Email</label>
+          <label for="${1:inputEmail3}" class="col-sm-2 form-control-label">Email</label>
           <div class="col-sm-10">
-            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            <input type="email" class="form-control" id="${1:inputEmail3}" placeholder="${10:Email}">
           </div>
         </div>
         <div class="form-group row">
-          <label for="inputPassword3" class="col-sm-2 form-control-label">Password</label>
+          <label for="${4:inputPassword3}" class="col-sm-2 form-control-label">Password</label>
           <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+            <input type="password" class="form-control" id="${4:inputPassword3}" placeholder="${10:Password}">
           </div>
         </div>
         <div class="form-group row">
@@ -131,20 +131,20 @@
           <div class="col-sm-10">
             <div class="radio">
               <label>
-                <input type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                Option one is this and that&mdash;be sure to include why it's great
+                <input type="radio" name="gridRadios" id="${5:gridRadios1}" value="${6:option1}" checked>
+                ${7:Option one is this and that&mdash;be sure to include why it's great}
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                Option two can be something else and selecting it will deselect option one
+                <input type="radio" name="gridRadios" id="${5:gridRadios2}" value="${6:option2}">
+                ${7:Option two can be something else and selecting it will deselect option one}
               </label>
             </div>
             <div class="radio disabled">
               <label>
-                <input type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-                Option three is disabled
+                <input type="radio" name="gridRadios" id="${5:gridRadios3}" value="${6:option3}" disabled>
+                ${7:Option three is disabled}
               </label>
             </div>
           </div>
@@ -173,13 +173,13 @@
       <div class="checkbox">
         <label>
           <input type="checkbox" value="">
-          Option one is this and that&mdash;be sure to include why it's great
+          ${1:Option one is this and that&mdash;be sure to include why it's great}
         </label>
       </div>
       <div class="checkbox disabled">
         <label>
           <input type="checkbox" value="" disabled>
-          Option two is disabled
+          ${1:Option two is disabled}
         </label>
       </div>
     """
@@ -188,13 +188,13 @@
     'prefix': 'formcbin'
     'body': """
       <label class="checkbox-inline">
-        <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+        <input type="checkbox" id="${1:inlineCheckbox1}" value="${2:option1}"> ${3:1}
       </label>
       <label class="checkbox-inline">
-        <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+        <input type="checkbox" id="${1:inlineCheckbox2}" value="${2:option2}"> ${3:2}
       </label>
       <label class="checkbox-inline">
-        <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+        <input type="checkbox" id="${1:inlineCheckbox3}" value="${2:option3}"> ${3:3}
       </label>
     """
 
@@ -203,7 +203,7 @@
     'body': """
       <div class="checkbox">
         <label>
-          <input type="checkbox" id="blankCheckbox" value="option1">
+          <input type="checkbox" id="${1:blankCheckbox}" value="${2:option1}">
         </label>
       </div>
     """
@@ -213,20 +213,20 @@
     'body': """
       <div class="radio">
         <label>
-          <input type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-          Option one is this and that&mdash;be sure to include why it's great
+          <input type="radio" name="${1:exampleRadios}" id="${2:exampleRadios1}" value="${3:option1}" checked>
+          ${4:Option one is this and that&mdash;be sure to include why it's great}
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-          Option two can be something else and selecting it will deselect option one
+          <input type="radio" name="${1:exampleRadios}" id="${2:exampleRadios2}" value="${3:option2}">
+          ${4:Option two can be something else and selecting it will deselect option one}
         </label>
       </div>
       <div class="radio disabled">
         <label>
-          <input type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
-          Option three is disabled
+          <input type="radio" name="${1:exampleRadios}" id="${2:exampleRadios3}" value="${3:option3}" disabled>
+          ${4:Option three is disabled}
         </label>
       </div>
     """
@@ -235,13 +235,13 @@
     'prefix': 'formrain'
     'body': """
       <label class="radio-inline">
-        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+        <input type="radio" name="${1:inlineRadioOptions}" id="${2:inlineRadio1}" value="${3:option1}"> ${3:1}
       </label>
       <label class="radio-inline">
-        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+        <input type="radio" name="${1:inlineRadioOptions}" id="${2:inlineRadio2}" value="${3:option2}"> ${3:2}
       </label>
       <label class="radio-inline">
-        <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+        <input type="radio" name="${1:inlineRadioOptions}" id="${2:inlineRadio3}" value="${3:option3}"> ${3:3}
       </label>
     """
 
@@ -250,7 +250,7 @@
     'body': """
       <div class="radio">
         <label>
-          <input type="radio" name="blankRadio" id="blankRadio1" value="option1">
+          <input type="radio" name="${1:blankRadio}" id="${2:blankRadio1}" value="option1">
         </label>
       </div>
     """
@@ -266,9 +266,9 @@
           </div>
         </div>
         <div class="form-group">
-          <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+          <label for="${1:inputPassword}" class="col-sm-2 control-label">Password</label>
           <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            <input type="password" class="form-control" id="${1:inputPassword}" placeholder="${10:Password}">
           </div>
         </div>
       </form>
@@ -283,8 +283,8 @@
           <p class="form-control-static">email@example.com</p>
         </div>
         <div class="form-group">
-          <label for="inputPassword2" class="sr-only">Password</label>
-          <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+          <label for="${1:inputPassword2}" class="sr-only">Password</label>
+          <input type="password" class="form-control" id="${1:inputPassword2}" placeholder="${10:Password}">
         </div>
         <button type="submit" class="btn btn-primary">Confirm identity</button>
       </form>
@@ -297,12 +297,12 @@
         <fieldset disabled>
           <div class="form-group">
             <label for="disabledTextInput">Disabled input</label>
-            <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+            <input type="text" id="disabledTextInput" class="form-control" placeholder="${10:Disabled input}">
           </div>
           <div class="form-group">
             <label for="disabledSelect">Disabled select menu</label>
             <select id="disabledSelect" class="form-control">
-              <option>Disabled select</option>
+              <option>${1:Disabled select}</option>
             </select>
           </div>
           <div class="checkbox">
@@ -318,15 +318,15 @@
   'Form Readonly - Bootstrap 4':
     'prefix': 'formreo'
     'body': """
-      <input class="form-control" type="text" placeholder="Readonly input here…" readonly>
+      <input class="form-control" type="text" placeholder="${10:Readonly input here…" readonl}y>
     """
 
   'Form input sizing - Bootstrap 4':
     'prefix': 'formiptsz'
     'body': """
-      <input class="form-control form-control-lg" type="text" placeholder=".input-lg">
-      <input class="form-control" type="text" placeholder="Default input">
-      <input class="form-control form-control-sm" type="text" placeholder=".input-sm">
+      <input class="form-control form-control-lg" type="text" placeholder="${10:.input-lg}">
+      <input class="form-control" type="text" placeholder="${10:Default input}">
+      <input class="form-control form-control-sm" type="text" placeholder="${10:.input-sm}">
     """
 
   'Form select sizing - Bootstrap 4':
@@ -342,13 +342,13 @@
     'body': """
       <div class="row">
         <div class="col-xs-2">
-          <input type="text" class="form-control" placeholder=".col-xs-2">
+          <input type="text" class="form-control" placeholder="${10:.col-xs-2}">
         </div>
         <div class="col-xs-3">
-          <input type="text" class="form-control" placeholder=".col-xs-3">
+          <input type="text" class="form-control" placeholder="${10:.col-xs-3}">
         </div>
         <div class="col-xs-4">
-          <input type="text" class="form-control" placeholder=".col-xs-4">
+          <input type="text" class="form-control" placeholder="${10:.col-xs-4}">
         </div>
       </div>
     """
