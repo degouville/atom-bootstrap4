@@ -12,8 +12,13 @@ Key Features:
   - Supports autocompletion of all helper classes in JavaScript, CSS and HTML
   - Snippet support for all components.
 
+Feel free to let me know what else you want added via:
 
-![Screenshot][2]
+  - Twitter [@de_gouville][3]
+  - Slack   [@JasonMortonNZ][4]
+  - Github  [Issues][5]
+
+![Screenshot](https://octodex.github.com/images/stormtroopocat.png =100x)
 
 ## <a name="menu"></a>Menu
 * Templates
@@ -368,13 +373,13 @@ Key Features:
 | imgre          | Image replacement                     |
 | emb            | Responsive embeds                     |
 
-<!-- ## Notes
-- Foo
-- Bar
-- Baz -->
+---
 
-[**Back to Top**](#menu)
+-> [**Back to Top**](#menu) <-
 
 <!-- Links -->
 [1]: http://v4-alpha.getbootstrap.com/
-[2]: https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif
+[2]: https://octodex.github.com/images/stormtroopocat.png
+[3]: https://twitter.com/de_gouville
+[4]: https://getbootstrap.slack.com/messages/v4/team/degouville/
+[5]: https://github.com/JasonMortonNZ/bs3-sublime-plugin/issues
