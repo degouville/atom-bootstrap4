@@ -382,4 +382,4 @@ Feel free to let me know what else you want added via:
 [2]: https://octodex.github.com/images/stormtroopocat.png
 [3]: https://twitter.com/de_gouville
 [4]: https://getbootstrap.slack.com/messages/v4/team/degouville/
-[5]: https://github.com/JasonMortonNZ/bs3-sublime-plugin/issues
+[5]: https://github.com/mdegoo/atom-bootstrap4/issues
