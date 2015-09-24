@@ -18,7 +18,7 @@ Feel free to let me know what else you want added via:
   - Slack   [@JasonMortonNZ][4]
   - Github  [Issues][5]
 
-![Screenshot](https://octodex.github.com/images/stormtroopocat.png =100x)
+![Screenshot][2]
 
 ## <a name="menu"></a>Menu
 * Templates
