@@ -16,44 +16,46 @@ Key Features:
 ![Screenshot][2]
 
 ## <a name="menu"></a>Menu
-| Templates              | Layout                                         | Content                                        |
-| --------------         | --------------                                 | --------------                                 |
-|  [Basic](#templates)   |  [Grid](#grid)                                 |  [Typography](#typography)                     |
-|  [Example](#templates) |  [Media](#media)                               |  [Tables](#tables)                             |
-|                        |  [Responsive Utilities](#responsive-utilities) |  [Figures](#figures)                           |
-
-| Components                                     |
-| --------------                                 |
-|  [Buttons](#buttons)                           |
-|  [Button group](#button-group)                 |
-|  [Button dropdown](#button-dropdown)           |
-|  [Forms](#forms)                               |
-|  [Input group](#input-group)                   |
-|  [Dropdowns](#dropdowns)                       |
-|  [Jumbotron](#jumbotron)                       |
-|  [Label](#label)                               |
-|  [Alerts](#alerts)                             |
-|  [Card](#card)                                 |
-|  [Navs](#navs)                                 |
-|  [Navbar](#navbar)                             |
-|  [Breadcrumb](#breadcrumb)                     |
-|  [Pagination](#pagination)                     |
-|  [Progress](#progress)                         |
-|  [List group](#list-group)                     |
-|  [Modal](#modal)                               |
-|  [Scrollspy](#scrollspy)                       |
-|  [Tooltips](#tooltips)                         |
-|  [Popovers](#popovers)                         |
-|  [Collapse](#collapse)                         |
-|  [Carousel](#carousel)                         |
-|  [Utilities](#utilities)                       |
-
-
+* Templates
+  - [Basic](#templates)
+  - [Example](#templates)
+* Layout
+  - [Grid](#grid)
+  - [Media](#media)
+  - [Responsive Utilities](#responsive-utilities)
+* Content
+  - [Typography](#typography)
+  - [Tables](#tables)
+  - [Figures](#figures)
+* Components
+  - [Buttons](#buttons)
+  - [Button group](#button-group)
+  - [Button dropdown](#button-dropdown)
+  - [Forms](#forms)
+  - [Input group](#input-group)
+  - [Dropdowns](#dropdowns)
+  - [Jumbotron](#jumbotron)
+  - [Label](#label)
+  - [Alerts](#alerts)
+  - [Card](#card)
+  - [Navs](#navs)
+  - [Navbar](#navbar)
+  - [Breadcrumb](#breadcrumb)
+  - [Pagination](#pagination)
+  - [Progress](#progress)
+  - [List group](#list-group)
+  - [Modal](#modal)
+  - [Scrollspy](#scrollspy)
+  - [Tooltips](#tooltips)
+  - [Popovers](#popovers)
+  - [Collapse](#collapse)
+  - [Carousel](#carousel)
+  - [Utilities](#utilities)
 
 ## Snippets
 
 ### <a name="templates">Templates</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | cdn-b4         | Generates CSS & JS from CDN           |
 | html-b4        | Generates Basic HTML Template         |
@@ -75,7 +77,7 @@ Key Features:
 ### Layout
 
 ###### <a name="grid">Grid</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | con            | Generates container                   |
 | conf           | Generates fluid container             |
@@ -99,7 +101,7 @@ Key Features:
 | 12colr         | Generates Responsive 12 Columns Grid  |
 
 ###### <a name="media">Media</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :-------------------------------------|
 | med            | Generates Media                       |
 | medr           | Generates Media right                 |
@@ -108,7 +110,7 @@ Key Features:
 | medl           | Generates Media List                  |
 
 ###### <a name="responsive-utilities">Responsive Utilities</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | colh           | Generates Responsive hidden classes   |
 | colvp          | Generates Responsive visible print cla|
@@ -117,7 +119,7 @@ Key Features:
 ### Content
 
 ###### <a name="typography">Typography</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | texm           | Generates Text Muted                  |
 | dih            | Generates Display Heading             |
@@ -136,7 +138,7 @@ Key Features:
 | imgce          | Generates Image Center -              |
 
 ###### <a name="tables">Tables</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | tab            | Generates Table                       |
 | tabs           | Generates Tables (full option)        |
@@ -147,14 +149,14 @@ Key Features:
 | tabtdc         | Generates Tables Colors (td)          |
 
 ###### <a name="figures">Figures</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | figooo         | Figure                                |
 
 ### Components
 
 ###### <a name="buttons">Buttons</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | btn            | Button                                |
 | btnc           | Button colors                         |
@@ -169,7 +171,7 @@ Key Features:
 | btnpr          | Button plugin Radio                   |
 
 ###### <a name="button-group">Button group</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | btngr          | 'Button group                         |
 | btngr          | 'Button group                         |
@@ -178,13 +180,13 @@ Key Features:
 | btngrvr        | 'Button group                         |
 
 ###### <a name="button-dropdown">Button dropdown</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | btndd          | 'Button dropdown                      |
 | btndu          | 'Button dropup                        |
 
 ###### <a name="forms">Forms</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | form           | Form Controls                         |
 | formgr         | Form group                            |
@@ -208,7 +210,7 @@ Key Features:
 | formctmra      | Form Custom radio                     |
 
 ###### <a name="input-group">Input group</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | iptg           | Input Group                           |
 | iptgsz         | Input Group Sizing                    |
@@ -217,27 +219,27 @@ Key Features:
 | iptbtnseg      | Segmented buttons                     |
 
 ###### <a name="dropdowns">Dropdowns</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | drp            | Dropdown                              |
 | drpagm         | Dropdown Alignement                   |
 | drpmh          | Dropdown menu header                  |
 
 ###### <a name="jumbotron">Jumbotron</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | jum            | Jumbotron                             |
 | jumf           | Fluid Jumbotron                       |
 
 ###### <a name="label">Label</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | lab            | Label                                 |
 | labco          | Label context                         |
 | labpi          | Label pill                            |
 
 ###### <a name="alerts">Alerts</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | alesu          | Alert success                         |
 | alein          | Alert info                            |
@@ -246,7 +248,7 @@ Key Features:
 | aledis         | Alert dismissing                      |
 
 ###### <a name="card">Card</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | car            | Cards                                 |
 | carct          | Cards content type                    |
@@ -262,7 +264,7 @@ Key Features:
 | cargr          | Cards groups                          |
 
 ###### <a name="navs">Navs</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | nav            | Nav                                   |
 | navin          | Nav inline                            |
@@ -272,7 +274,7 @@ Key Features:
 | navtbdd        | Nav tabs w/ dropdown                  |
 
 ###### <a name="navbar">Navbar</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | nvb            | Navbar                                |
 | nvbc           | Navbar color                          |
@@ -285,19 +287,19 @@ Key Features:
 | nvb            | Navbar                                |
 
 ###### <a name="breadcrumb">Breadcrumb</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | bre            | Breadcrumb                            |
 
 ###### <a name="pagination">Pagination</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | pag            | Pagination                            |
 | pagsz          | Pagination                            |
 | pager          | Pagination pager                      |
 
 ###### <a name="progress">Progress</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | pro            | Progress                              |
 | proco          | Progress context                      |
@@ -305,7 +307,7 @@ Key Features:
 | prostan        | Progress                              |
 
 ###### <a name="list-group">List group</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | lis            | List                                  |
 | lisla          | List label                            |
@@ -316,7 +318,7 @@ Key Features:
 | liscc          | List custom content                   |
 
 ###### <a name="modal">Modal</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | mod            | Modal                                 |
 | modsz          | Modal sizes                           |
@@ -324,35 +326,35 @@ Key Features:
 | modcb          | Modal content based                   |
 
 ###### <a name="scrollspy">Scrollspy</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | scr            | Scrollspy                             |
 
 ###### <a name="tooltips">Tooltips</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | too            | Tooltip                               |
 
 ###### <a name="popovers">Popovers</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | pop            | Popover                               |
 | popdi          | Popover direction                     |
 
 ###### <a name="collapse">Collapse</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | coll           | Collapse                              |
 | colla          | Collapse accordion                    |
 
 ###### <a name="carousel">Carousel</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | caro           | Carousel                              |
 | caroca         | Carousel caption                      |
 
 ###### <a name="utilities">Utilities</a>
-| Aliases        | Description                           |
+| Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | texta          | Text alignment                        |
 | textt          | Text transform                        |
