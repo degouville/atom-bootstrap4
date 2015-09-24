@@ -375,7 +375,7 @@ Feel free to let me know what else you want added via:
 
 ---
 
--> [**Back to Top**](#menu) <-
+[**Back to Top**](#menu)
 
 <!-- Links -->
 [1]: http://v4-alpha.getbootstrap.com/
