@@ -15,7 +15,7 @@ Key Features:
 Feel free to let me know what else you want added via:
 
   - Twitter [@de_gouville][3]
-  - Slack   [@JasonMortonNZ][4]
+  - Slack   [@de_gouville][4]
   - Github  [Issues][5]
 
 ![Screenshot][2]
