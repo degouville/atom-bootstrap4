@@ -381,5 +381,5 @@ Feel free to let me know what else you want added via:
 [1]: http://v4-alpha.getbootstrap.com/
 [2]: https://octodex.github.com/images/stormtroopocat.png
 [3]: https://twitter.com/de_gouville
-[4]: https://getbootstrap.slack.com/messages/v4/team/degouville/
+[4]: https://getbootstrap.slack.com/messages/@degouville/
 [5]: https://github.com/mdegoo/atom-bootstrap4/issues
