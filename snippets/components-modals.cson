@@ -129,7 +129,6 @@
       </div>
     """
 
-# TODO: Add snip to setting
   'Modal content based- Bootstrap 4':
     'prefix': 'modbtn'
     'body': """
