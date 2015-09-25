@@ -68,7 +68,6 @@
       </ul>
     """
 
-# TODO: Add snip to setting
   'List context (div -> a href...) - Bootstrap 4':
     'prefix': 'liscoa'
     'body': """
