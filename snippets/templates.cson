@@ -1581,4 +1581,17 @@
       <script src="https://cdn.rawgit.com/twbs/bootstrap/${2:v4-dev/dist}/js/bootstrap.js"></script>
     """
 
-# TODO: Add Custom/Local snips 4 css & js
+  'Local CSS - Bootstrap 4 ':
+    'prefix': 'loccs'
+    'body': """
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="$1/css/bootstrap.css">
+    """
+
+  'Local JS - Bootstrap 4 ':
+    'prefix': 'locjs'
+    'body': """
+      <!-- jQuery first, then Bootstrap JS. -->
+      <script src="$1/js/jquery.min.js"></script>
+      <script src="$1/js/bootstrap.js"></script>
+    """
