@@ -62,22 +62,22 @@ Feel free to let me know what else you want added via:
 ### <a name="templates">Templates</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| cdn-b4         | Generates CSS & JS from CDN           |
-| html-b4        | Generates Basic HTML Template         |
-| html-bl        | Generates Blog Template               |
-| html-ca        | Generates Carousel Template           |
-| html-co        | Generates Cover Template              |
-| html-da        | Generates Dashboard Template          |
-| html-gd        | Generates Grids Template              |
-| html-jb        | Generates Jumbotron Template          |
-| html-nb        | Generates Navbar Template             |
-| html-nbfx      | Generates Fixed Navbar Template       |
-| html-nbj       | Generates Justified nav Template      |
-| html-nbst      | Generates Static top Navbar Template  |
-| html-sf        | Generates Sticky footer Template      |
-| html-sfn       | Generates Sticky footer w/ navbar Temp|
-| html-si        | Generates Sign-in Template            |
-| html-st        | Generates Starter Template            |
+| cdnb4         | Generates CSS & JS from CDN           |
+| htmlb4        | Generates Basic HTML Template         |
+| htmlbl        | Generates Blog Template               |
+| htmlca        | Generates Carousel Template           |
+| htmlco        | Generates Cover Template              |
+| htmlda        | Generates Dashboard Template          |
+| htmlgd        | Generates Grids Template              |
+| htmljb        | Generates Jumbotron Template          |
+| htmlnb        | Generates Navbar Template             |
+| htmlnbfx      | Generates Fixed Navbar Template       |
+| htmlnbj       | Generates Justified nav Template      |
+| htmlnbst      | Generates Static top Navbar Template  |
+| htmlsf        | Generates Sticky footer Template      |
+| htmlsfn       | Generates Sticky footer w/ navbar Temp|
+| htmlsi        | Generates Sign-in Template            |
+| htmlst        | Generates Starter Template            |
 
 ### Layout
 
