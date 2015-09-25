@@ -982,25 +982,26 @@
     'prefix': 'htmlnbj'
     'body': """
     <!DOCTYPE html>
-    <html lang="en"><head>
+    <html lang="en">
+      <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="../../favicon.ico">
+        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
 
         <title>Justified Nav Template for Bootstrap</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom styles for this template -->
         <link href="justified-nav.css" rel="stylesheet">
 
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+        <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
       </head>
 
       <body>
@@ -1063,31 +1064,33 @@
         <!-- Placed at the end of the document so the pages load faster -->
 
 
-    </body></html>
+      </body>
+    </html>
     """
 
   'Static top Navbar template - Bootstrap 4 ':
     'prefix': 'htmlnbst'
     'body': """
     <!DOCTYPE html>
-    <html lang="en"><head>
+    <html lang="en">
+      <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="../../favicon.ico">
+        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
 
         <title>Top navbar example for Bootstrap</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom styles for this template -->
         <link href="navbar-top.css" rel="stylesheet">
 
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+        <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
       </head>
 
       <body>
@@ -1108,7 +1111,7 @@
           <div class="jumbotron">
             <h1>Navbar example</h1>
             <p class="lead">This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll, this navbar remains in its original position and moves with the rest of the page.</p>
-            <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs »</a>
+            <a class="btn btn-lg btn-primary" href="http://v4-alpha.getbootstrap.com/components/#navbar" role="button">View navbar docs »</a>
           </div>
         </div>
 
@@ -1117,35 +1120,37 @@
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="../../dist/js/bootstrap.min.js"></script>
+        <script src="http://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
 
 
-    </body></html>
+    </body>
+    </html>
     """
 
   'Sticky footer template - Bootstrap 4 ':
     'prefix': 'htmlsf'
     'body': """
     <!DOCTYPE html>
-    <html lang="en"><head>
+    <html lang="en">
+      <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="../../favicon.ico">
+        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
 
         <title>Sticky Footer Template for Bootstrap</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom styles for this template -->
         <link href="sticky-footer.css" rel="stylesheet">
 
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+        <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
       </head>
 
       <body>
@@ -1171,32 +1176,34 @@
         <!-- Placed at the end of the document so the pages load faster -->
 
 
-    </body></html>
+      </body>
+    </html>
     """
 
   'Sticky footer w/ navbar template - Bootstrap 4 ':
     'prefix': 'htmlsfn'
     'body': """
     <!DOCTYPE html>
-    <html lang="en"><head>
+    <html lang="en">
+      <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="../../favicon.ico">
+        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
 
         <title>Sticky Footer Navbar Template for Bootstrap</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom styles for this template -->
         <link href="sticky-footer-navbar.css" rel="stylesheet">
 
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+        <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
       </head>
 
       <body>
@@ -1255,36 +1262,38 @@
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-        <script src="../../dist/js/bootstrap.min.js"></script>
+        <script>window.jQuery || document.write('<script src="http://v4-alpha.getbootstrap.com/assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="http://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
 
 
-    </body></html>
+    </body>
+    </html>
     """
 
   'Sign-in template - Bootstrap 4 ':
     'prefix': 'htmlsi'
     'body': """
     <!DOCTYPE html>
-    <html lang="en"><head>
+    <html lang="en">
+      <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="../../favicon.ico">
+        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
 
         <title>Signin Template for Bootstrap</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom styles for this template -->
         <link href="signin.css" rel="stylesheet">
 
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+        <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
       </head>
 
       <body>
@@ -1313,7 +1322,8 @@
         <!-- Placed at the end of the document so the pages load faster -->
 
 
-    </body></html>
+      </body>
+    </html>
     """
 
   'Blog template - Bootstrap 4 ':
@@ -1547,8 +1557,6 @@
       </body>
     </html>
     """
-
-# TODO: Add all templates
 
   'CSS & JS\'s CDN - Bootstrap 4 ':
     'prefix': 'cdn-b4'
