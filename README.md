@@ -163,215 +163,215 @@ Feel free to let me know what else you want added via:
 ###### <a name="buttons">Buttons</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| btn            | Button                                |
-| btnc           | Button colors                         |
-| btno           | Button Outline                        |
-| btna           | Button < a >                          |
-| btni           | Button < input >                      |
-| btnsz          | Button sizes                          |
-| btnbk          | Button block                          |
-| btnast         | Button state < a>                     |
-| btnst          | Button state                          |
-| btnt           | Button toggle                         |
-| btnpr          | Button plugin Radio                   |
+| btn            | Generates Button                      |
+| btnc           | Generates Button colors               |
+| btno           | Generates Button Outline              |
+| btna           | Generates Button < a >                |
+| btni           | Generates Button < input >            |
+| btnsz          | Generates Button sizes                |
+| btnbk          | Generates Button block                |
+| btnast         | Generates Button state < a>           |
+| btnst          | Generates Button state                |
+| btnt           | Generates Button toggle               |
+| btnpr          | Generates Button plugin Radio         |
 
 ###### <a name="button-group">Button group</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| btngr          | 'Button group                         |
-| btngr          | 'Button group                         |
-| btngrsi        | 'Button group size                    |
-| btndr          | 'Button dropdown                      |
-| btngrvr        | 'Button group                         |
+| btngr          | Generates Button group                |
+| btngr          | Generates Button group                |
+| btngrsi        | Generates Button group size           |
+| btndr          | Generates Button dropdown             |
+| btngrvr        | Generates Button group                |
 
 ###### <a name="button-dropdown">Button dropdown</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| btndd          | 'Button dropdown                      |
-| btndu          | 'Button dropup                        |
+| btndd          | Generates Button dropdown             |
+| btndu          | Generates Button dropup               |
 
 ###### <a name="forms">Forms</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| form           | Form Controls                         |
-| formgr         | Form group                            |
-| formin         | Form inline                           |
-| formhl         | Form hidden label                     |
-| formgrid       | Form w/ Grid                          |
-| formcb         | Form Checkbox                         |
-| formcbin       | Form Checkbox inline                  |
-| formra         | Form Radio                            |
-| formrain       | Form Radio inline                     |
-| formrawola     | Form Radio w/o label                  |
-| formsc         | Form Static Controls                  |
-| formdis        | Form disabled state                   |
-| formreo        | Form Readonly                         |
-| formiptsz      | Form input sizing                     |
-| formsltsz      | Form select sizing                    |
-| formcolsz      | Form column sizing                    |
-| formht         | Form Help text                        |
-| formval        | Form Validation                       |
-| formctmcb      | Form Custom checkbox                  |
-| formctmra      | Form Custom radio                     |
+| form           | Generates Form Controls               |
+| formgr         | Generates Form group                  |
+| formin         | Generates Form inline                 |
+| formhl         | Generates Form hidden label           |
+| formgrid       | Generates Form w/ Grid                |
+| formcb         | Generates Form Checkbox               |
+| formcbin       | Generates Form Checkbox inline        |
+| formra         | Generates Form Radio                  |
+| formrain       | Generates Form Radio inline           |
+| formrawola     | Generates Form Radio w/o label        |
+| formsc         | Generates Form Static Controls        |
+| formdis        | Generates Form disabled state         |
+| formreo        | Generates Form Readonly               |
+| formiptsz      | Generates Form input sizing           |
+| formsltsz      | Generates Form select sizing          |
+| formcolsz      | Generates Form column sizing          |
+| formht         | Generates Form Help text              |
+| formval        | Generates Form Validation             |
+| formctmcb      | Generates Form Custom checkbox        |
+| formctmra      | Generates Form Custom radio           |
 
 ###### <a name="input-group">Input group</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| iptg           | Input Group                           |
-| iptgsz         | Input Group Sizing                    |
-| iptbtnadd      | Buttons addons                        |
-| iptbtnwdd      | Buttons w/ dropdowns                  |
-| iptbtnseg      | Segmented buttons                     |
+| iptg           | Generates Input Group                 |
+| iptgsz         | Generates Input Group Sizing          |
+| iptbtnadd      | Generates Buttons addons              |
+| iptbtnwdd      | Generates Buttons w/ dropdowns        |
+| iptbtnseg      | Generates Segmented buttons           |
 
 ###### <a name="dropdowns">Dropdowns</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| drp            | Dropdown                              |
-| drpagm         | Dropdown Alignement                   |
-| drpmh          | Dropdown menu header                  |
+| drp            | Generates Dropdown                    |
+| drpagm         | Generates Dropdown Alignement         |
+| drpmh          | Generates Dropdown menu header        |
 
 ###### <a name="jumbotron">Jumbotron</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| jum            | Jumbotron                             |
-| jumf           | Fluid Jumbotron                       |
+| jum            | Generates Jumbotron                   |
+| jumf           | Generates Fluid Jumbotron             |
 
 ###### <a name="label">Label</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| lab            | Label                                 |
-| labco          | Label context                         |
-| labpi          | Label pill                            |
+| lab            | Generates Label                       |
+| labco          | Generates Label context               |
+| labpi          | Generates Label pill                  |
 
 ###### <a name="alerts">Alerts</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| alesu          | Alert success                         |
-| alein          | Alert info                            |
-| alewa          | Alert warning                         |
-| aleda          | Alert danger                          |
-| aledis         | Alert dismissing                      |
+| alesu          | Generates Alert success               |
+| alein          | Generates Alert info                  |
+| alewa          | Generates Alert warning               |
+| aleda          | Generates Alert danger                |
+| aledis         | Generates Alert dismissing            |
 
 ###### <a name="card">Card</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| car            | Cards                                 |
-| carct          | Cards content type                    |
-| carsz          | Cards sizing                          |
-| carta          | Cards Text alignment                  |
-| caric          | Cards image caps                      |
-| cario          | Cards image overlays                  |
-| carit          | Cards inverted text                   |
-| cargr          | Cards groups                          |
-| cardk          | Cards decks                           |
-| carcol         | Cards columns                         |
-| cargr          | Cards groups                          |
-| cargr          | Cards groups                          |
+| car            | Generates Cards                       |
+| carct          | Generates Cards content type          |
+| carsz          | Generates Cards sizing                |
+| carta          | Generates Cards Text alignment        |
+| caric          | Generates Cards image caps            |
+| cario          | Generates Cards image overlays        |
+| carit          | Generates Cards inverted text         |
+| cargr          | Generates Cards groups                |
+| cardk          | Generates Cards decks                 |
+| carcol         | Generates Cards columns               |
+| cargr          | Generates Cards groups                |
+| cargr          | Generates Cards groups                |
 
 ###### <a name="navs">Navs</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| nav            | Nav                                   |
-| navin          | Nav inline                            |
-| navtb          | Nav tabs                              |
-| navpl          | Nav pills                             |
-| navplsk        | Nav pills stacked                     |
-| navtbdd        | Nav tabs w/ dropdown                  |
+| nav            | Generates Nav                         |
+| navin          | Generates Nav inline                  |
+| navtb          | Generates Nav tabs                    |
+| navpl          | Generates Nav pills                   |
+| navplsk        | Generates Nav pills stacked           |
+| navtbdd        | Generates Nav tabs w/ dropdown        |
 
 ###### <a name="navbar">Navbar</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| nvb            | Navbar                                |
-| nvbc           | Navbar color                          |
-| nvbconout      | Navbar container out                  |
-| nvbconin       | Navbar container in                   |
-| nvbft          | Navbar fixed top                      |
-| nvbfb          | Navbar fixed bottom                   |
-| nvbclp         | Navbar collapse                       |
-| nvbtg          | Navbar toggler                        |
-| nvb            | Navbar                                |
+| nvb            | Generates Navbar                      |
+| nvbc           | Generates Navbar color                |
+| nvbconout      | Generates Navbar container out        |
+| nvbconin       | Generates Navbar container in         |
+| nvbft          | Generates Navbar fixed top            |
+| nvbfb          | Generates Navbar fixed bottom         |
+| nvbclp         | Generates Navbar collapse             |
+| nvbtg          | Generates Navbar toggler              |
+| nvb            | Generates Navbar                      |
 
 ###### <a name="breadcrumb">Breadcrumb</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| bre            | Breadcrumb                            |
+| bre            | Generates Breadcrumb                  |
 
 ###### <a name="pagination">Pagination</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| pag            | Pagination                            |
-| pagsz          | Pagination                            |
-| pager          | Pagination pager                      |
+| pag            | Generates Pagination                  |
+| pagsz          | Generates Pagination                  |
+| pager          | Generates Pagination pager            |
 
 ###### <a name="progress">Progress</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| pro            | Progress                              |
-| proco          | Progress context                      |
-| procost        | Progress striped                      |
-| prostan        | Progress                              |
+| pro            | Generates Progress                    |
+| proco          | Generates Progress context            |
+| procost        | Generates Progress striped            |
+| prostan        | Generates Progress                    |
 
 ###### <a name="list-group">List group</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| lis            | List                                  |
-| lisla          | List label                            |
-| lisli          | List linked                           |
-| lisbtn         | List button                           |
-| lisdis         | List disabled items                   |
-| lisco          | List context                          |
-| liscc          | List custom content                   |
+| lis            | Generates List                        |
+| lisla          | Generates List label                  |
+| lisli          | Generates List linked                 |
+| lisbtn         | Generates List button                 |
+| lisdis         | Generates List disabled items         |
+| lisco          | Generates List context                |
+| liscc          | Generates List custom content         |
 
 ###### <a name="modal">Modal</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| mod            | Modal                                 |
-| modsz          | Modal sizes                           |
-| modgr          | Modal grid                            |
-| modcb          | Modal content based                   |
+| mod            | Generates Modal                       |
+| modsz          | Generates Modal sizes                 |
+| modgr          | Generates Modal grid                  |
+| modcb          | Generates Modal content based         |
 
 ###### <a name="scrollspy">Scrollspy</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| scr            | Scrollspy                             |
+| scr            | Generates Scrollspy                   |
 
 ###### <a name="tooltips">Tooltips</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| too            | Tooltip                               |
+| too            | Generates Tooltipc                    |
 
 ###### <a name="popovers">Popovers</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| pop            | Popover                               |
-| popdi          | Popover direction                     |
+| pop            | Generates Popover                     |
+| popdi          | Generates Popover direction           |
 
 ###### <a name="collapse">Collapse</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| coll           | Collapse                              |
-| colla          | Collapse accordion                    |
+| coll           | Generates Collapse                    |
+| colla          | Generates Collapse accordion          |
 
 ###### <a name="carousel">Carousel</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| caro           | Carousel                              |
-| caroca         | Carousel caption                      |
+| caro           | Generates Carousel                    |
+| caroca         | Generates Carousel caption            |
 
 ###### <a name="utilities">Utilities</a>
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
-| texta          | Text alignment                        |
-| textt          | Text transform                        |
-| textcol        | Text context colors                   |
-| cloi           | Close icon                            |
-| cenb           | Center block                          |
-| cle            | Clearfix                              |
-| hid            | Hidden content                        |
-| inv            | Invisible content                     |
-| sro            | Screen reader                         |
-| imgre          | Image replacement                     |
-| emb            | Responsive embeds                     |
+| texta          | Generates Text alignment              |
+| textt          | Generates Text transform              |
+| textcol        | Generates Text context colors         |
+| cloi           | Generates Close icon                  |
+| cenb           | Generates Center block                |
+| cle            | Generates Clearfix                    |
+| hid            | Generates Hidden content              |
+| inv            | Generates Invisible content           |
+| sro            | Generates Screen reader               |
+| imgre          | Generates Image replacement           |
+| emb            | Generates Responsive embeds           |
 
 ---
 
