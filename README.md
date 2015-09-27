@@ -11,6 +11,13 @@ Key Features:
 
   - Supports autocompletion of all helper classes in JavaScript, CSS and HTML
   - Snippet support for all components.
+  - Snippet support for templates.
+  - Snippet support for layout.
+  - Snippet support for content.
+
+Screenshot :
+
+![Screenshot][6]
 
 Feel free to let me know what else you want added via:
 
@@ -383,3 +390,4 @@ Feel free to let me know what else you want added via:
 [3]: https://twitter.com/de_gouville
 [4]: https://getbootstrap.slack.com/messages/@degouville/
 [5]: https://github.com/mdegoo/atom-bootstrap4/issues
+[6]: https://raw.githubusercontent.com/mdegoo/atom-bootstrap4/master/atom-screenshot/screeshot_30.gif
