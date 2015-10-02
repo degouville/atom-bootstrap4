@@ -94,6 +94,7 @@ Feel free to let me know what else you want added via:
 | con            | Generates a  container                |
 | conf           | Generates a  fluid container          |
 | row            | Generates a  row                      |
+| grid           | Generates a  grid                     |
 | col            | Generates a  column                   |
 | col-xs         | Generates a  extra small column       |
 | col-sm         | Generates a  small column             |
