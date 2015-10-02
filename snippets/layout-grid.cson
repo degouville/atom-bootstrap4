@@ -30,18 +30,16 @@
 
   # CRC
   'Simple grid - Bootstrap 4':
-    'prefix': 'row'
+    'prefix': 'grid'
     'body': """
       <div class="container">
-        <div class="row">
-          ${4:
+        <div class="row">${4:
 
           <div class="col-${1:xs|sm|md|lg|xl}-${2:1-12}">
             $3
           </div>
 
-          }
-        </div>
+        }</div>
       </div>
 
     """
