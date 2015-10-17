@@ -1523,6 +1523,8 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="${3:https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css}">
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" href="http://v4-alpha.getbootstrap.com/examples/starter-template/starter-template.css">
         <!-- ${4:My} CSS -->
         <link rel="stylesheet" href="${5:css/style.css}">
       </head>
