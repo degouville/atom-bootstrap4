@@ -187,7 +187,7 @@ Feel free to let me know what else you want added via:
 | Snippets       | Descriptions                          |
 | :------------- | :------------------------------------ |
 | btngr          | Generates a  Button group             |
-| btngr          | Generates a  Button group             |
+| btntlb         | Generates a  Button toolbar           |
 | btngrsi        | Generates a  Button group size        |
 | btndr          | Generates a  Button dropdown          |
 | btngrvr        | Generates a  Button group             |

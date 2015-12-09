@@ -5,7 +5,7 @@
   'Responsive Image - Bootstrap 4':
     'prefix': 'imgr'
     'body': """
-      <img src="$1" class="img-responsive" alt="$2">
+      <img src="$1" class="img-fluid" alt="$2">
     """
 
   'Image Rounded - Bootstrap 4':

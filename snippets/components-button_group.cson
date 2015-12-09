@@ -12,8 +12,8 @@
       </div>
     """
 
-  'Button group - Bootstrap 4':
-    'prefix': 'btngr'
+  'Button toolbar - Bootstrap 4':
+    'prefix': 'btntlb'
     'body': """
       <div class="btn-toolbar" role="toolbar" aria-label="${1:Toolbar with button groups}">
         <div class="btn-group" role="group" aria-label="First group">
