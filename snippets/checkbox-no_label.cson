@@ -1,6 +1,6 @@
 '.text.html':
-  'form:checkbox:wo_label':
-    prefix: 'form:checkbox:wo_label'
+  'form:checkbox:no_label':
+    prefix: 'form:checkbox:no_label'
     body: '''
       <div class="checkbox">
       	<label>
