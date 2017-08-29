@@ -5,7 +5,7 @@
   'Responsive Image - Bootstrap 4':
     'prefix': 'imgr'
     'body': """
-      <img src="$1" class="img-fluid" alt="$2">
+      <img src="$1" class="img-fluid" alt="Responsive image">
     """
 
   'Image Rounded - Bootstrap 4':
@@ -29,17 +29,17 @@
   'Image Left - Bootstrap 4':
     'prefix': 'imgl'
     'body': """
-      <img src="$1" alt="$2" class="img-rounded pull-left">
+      <img src="$1" alt="$2" class="rounded float-left">
     """
 
   'Image Right - Bootstrap 4':
     'prefix': 'imgr'
     'body': """
-      <img src="$1" alt="$2" class="img-rounded pull-right">
+      <img src="$1" alt="$2" class="rounded float-right">
     """
 
   'Image Center - Bootstrap 4':
     'prefix': 'imgce'
     'body': """
-      <img src="$1" alt="$2" class="img-rounded center-block">
+      <img src="$1" alt="$2" class="rounded mx-auto d-block">
     """
