@@ -1,0 +1,4 @@
+'.text.html':
+  'button:state:a':
+    prefix: 'button:state:a'
+    body: '<a href="#" class="btn btn-primary ${1:active|disabled}" role="button">$2</a>$0'

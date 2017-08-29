@@ -1,0 +1,10 @@
+'.text.html':
+  'form:radio:wo_label':
+    prefix: 'form:radio:wo_label'
+    body: '''
+      <div class="radio">
+      	<label>
+      		<input type="radio" name="${1:blankRadio}" id="${2:blankRadio1}" value="option1">
+      	</label>
+      </div>$0
+    '''

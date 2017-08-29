@@ -1,0 +1,4 @@
+'.text.html':
+  'form:input:sizing':
+    prefix: 'form:input:sizing'
+    body: '<select class="form-control {2:form-control-{1:sm|lg}}">${3}</select>$0'

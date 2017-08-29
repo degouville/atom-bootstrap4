@@ -1,0 +1,8 @@
+'.text.html':
+  'list:context':
+    prefix: 'list:context'
+    body: '''
+      <ul class="list-group">
+      			<li class="list-group-item list-group-item-${1:success|info|warning|danger}">${2:Dapibus ac facilisis in}</li>
+      		</ul>$0
+    '''

@@ -1,0 +1,4 @@
+'.text.html':
+  'label:context':
+    prefix: 'label:context'
+    body: '<span class="label label-pill label-${1:default|primary|success|info|warning|danger}">$2</span>$0'
