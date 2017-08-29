@@ -1,0 +1,10 @@
+'.text.html':
+  'form:checkbox:custom':
+    prefix: 'form:checkbox:custom'
+    body: '''
+      <label class="c-input c-checkbox">
+      	<input type="checkbox">
+      	<span class="c-indicator"></span>
+      	Check this custom checkbox
+      </label>$0
+    '''

@@ -1,0 +1,4 @@
+'.text.html':
+  'button:colors':
+    prefix: 'button:colors'
+    body: '<button type="button" class="btn btn-${1:primary|primary|secondary|success|warning|danger|link}">$2</button>$0'

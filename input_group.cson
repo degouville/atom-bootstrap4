@@ -1,0 +1,26 @@
+'.text.html':
+  input_group:
+    prefix: 'input_group'
+    body: '''
+      <div class="input-group">
+      			<span class="input-group-addon" id="${2:basic-addon1}">@</span>
+      			<input type="text" class="form-control" placeholder="${1:Username}" aria-describedby="${2:basic-addon1}">
+      		</div>
+      		<br>
+      		<div class="input-group">
+      			<input type="text" class="form-control" placeholder="${1:Recipient's username}" aria-describedby="${2:basic-addon2}">
+      			<span class="input-group-addon" id="${2:basic-addon2}">.00</span>
+      		</div>
+      		<br>
+      		<label for="basic-url">${3:Your vanity URL}</label>
+      		<div class="input-group">
+      			<span class="input-group-addon" id="${2:basic-addon3}">https://example.com/users/</span>
+      			<input type="text" class="form-control" id="basic-url" aria-describedby="${2:basic-addon3}">
+      		</div>
+      		<br>
+      		<div class="input-group">
+      			<span class="input-group-addon">$</span>
+      			<input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+      			<span class="input-group-addon">.00</span>
+      		</div>$0
+    '''

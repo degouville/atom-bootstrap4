@@ -1,0 +1,23 @@
+'.text.html':
+  'input_group:addon:checkbox_radio':
+    prefix: 'input_group:addon:checkbox_radio'
+    body: '''
+      <div class="row">
+      	<div class="col-lg-6">
+      		<div class="input-group">
+      			<span class="input-group-addon">
+      				<input type="checkbox" aria-label="${1:Checkbox for following text input}">
+      			</span>
+      			<input type="text" class="form-control" aria-label="${1:Text input with checkbox}">
+      		</div>
+      	</div>
+      	<div class="col-lg-6">
+      		<div class="input-group">
+      			<span class="input-group-addon">
+      				<input type="radio" aria-label="${1:Radio button for following text input}">
+      			</span>
+      			<input type="text" class="form-control" aria-label="${1:Text input with radio button}">
+      		</div>
+      	</div>
+      </div>$0
+    '''

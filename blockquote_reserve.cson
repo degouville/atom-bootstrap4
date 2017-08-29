@@ -1,0 +1,9 @@
+'.text.html':
+  'typography:blockquotes_reverse':
+    prefix: 'typography:blockquotes_reverse'
+    body: '''
+      <blockquote class="blockquote blockquote-reverse">
+      	<p>${1:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.}</p>
+      	<footer>${2:Someone famous in} <cite title="${3:Source Title}">${3:Source Title}</cite></footer>
+      </blockquote>$0
+    '''
