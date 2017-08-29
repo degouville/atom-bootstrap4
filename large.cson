@@ -1,0 +1,13 @@
+'.text.html':
+  'button_dropdown:large':
+    prefix: 'button_dropdown:large'
+    body: '''
+      <div class="btn-group">
+      	<button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      		Large button
+      	</button>
+      	<div class="dropdown-menu">
+      		${1:...}
+      	</div>
+      </div>$0
+    '''
