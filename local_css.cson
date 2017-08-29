@@ -1,0 +1,7 @@
+'.text.html':
+  'b4:template:local_css':
+    prefix: 'b4:template:local_css'
+    body: '''
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="$1/css/bootstrap.css">$0
+    '''

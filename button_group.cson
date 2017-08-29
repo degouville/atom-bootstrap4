@@ -1,0 +1,10 @@
+'.text.html':
+  button_group:
+    prefix: 'button_group'
+    body: '''
+      <div class="btn-group" role="group" aria-label="${1:Basic example}">
+      	<button type="button" class="btn btn-secondary">${2:Left}</button>
+      	<button type="button" class="btn btn-secondary">${2:Middle}</button>
+      	<button type="button" class="btn btn-secondary">${2:Right}</button>
+      </div>$0
+    '''
