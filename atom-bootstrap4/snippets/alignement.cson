@@ -1,8 +1,0 @@
-'.text.html':
-  'dropdown:align':
-    prefix: 'dropdown:align'
-    body: '''
-      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="${2:dLabel}">
-      	${1:...}
-      </div>$0
-    '''

@@ -1,8 +1,0 @@
-'.text.html':
-  'form:text:help':
-    prefix: 'form:text:help'
-    body: '''
-      <small class="text-muted">
-      	Some inline text with a small tag looks like this.
-      </small>$0
-    '''
