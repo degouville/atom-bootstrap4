@@ -1,0 +1,17 @@
+'.text.html':
+  'tables:table':
+    prefix: 'tables:table'
+    body: '''
+      <table class="table">
+      	<thead>
+      		<tr>
+      			<th>$1</th>
+      		</tr>
+      	</thead>
+      	<tbody>
+      		<tr>
+      			<td>$2</td>
+      		</tr>
+      	</tbody>
+      </table>$0
+    '''

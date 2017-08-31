@@ -1,0 +1,7 @@
+'.text.html':
+  '...':
+    prefix: '...'
+    body: '''
+      <!DOCTYPE html>
+      	...$0
+    '''

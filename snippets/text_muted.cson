@@ -1,0 +1,4 @@
+'.text.html':
+  'typography:text_muted':
+    prefix: 'typography:text_muted'
+    body: '<small class="text-muted">$1</small>$0'

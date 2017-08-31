@@ -1,0 +1,8 @@
+'.text.html':
+  'b4:utilities:spacing:centered':
+    prefix: 'b4:utilities:spacing:centered'
+    body: '''
+      <div class="mx-auto" style="width: ${1:200px}">
+      	${2:Centered element}
+      </div>$0
+    '''

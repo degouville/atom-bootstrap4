@@ -1,0 +1,4 @@
+'.text.html':
+  progress:
+    prefix: 'progress'
+    body: '<progress class="progress" value="${1:10}" max="100">$2</progress>$0'

@@ -1,0 +1,8 @@
+'.text.html':
+  'alert:success':
+    prefix: 'alert:success'
+    body: '''
+      <div class="alert alert-success" role="alert">
+      	${1:<strong>Well done!</strong> You successfully read this important alert message.}
+      </div>$0
+    '''

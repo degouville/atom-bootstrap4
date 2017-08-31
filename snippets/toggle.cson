@@ -1,0 +1,4 @@
+'.text.html':
+  'button:toggle':
+    prefix: 'button:toggle'
+    body: '<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">$1</button>$0'
