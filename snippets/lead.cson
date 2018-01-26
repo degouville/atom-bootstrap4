@@ -4,5 +4,5 @@
     body: '''
       <p class="lead">
           ${1:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Integer posuere erat a ante.}
-      </p>'$0
+      </p>$0
     '''
