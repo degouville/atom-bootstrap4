@@ -346,9 +346,3 @@
       </div>
     """
 
-  'Cards groups - Bootstrap 4':
-    'prefix': 'cargr'
-    'body': """
-
-    """
-
