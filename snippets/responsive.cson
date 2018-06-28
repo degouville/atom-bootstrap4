@@ -1,4 +1,0 @@
-'.text.html':
-  'image:responsive':
-    prefix: 'image:responsive'
-    body: '<img src="$1" class="img-responsive" alt="$2">$0'

@@ -1,4 +1,0 @@
-'.text.html':
-  'button:outline':
-    prefix: 'button:outline'
-    body: '<button type="button" class="btn btn-${1:primary|primary|secondary|success|warning|danger|link}-outline">$2</button>$0'

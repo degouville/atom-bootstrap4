@@ -1,8 +1,0 @@
-'.text.html':
-  'navbar:color':
-    prefix: 'navbar:color'
-    body: '''
-      <nav class="navbar navbar-${1:dark|light} bg-${2:inverse|primary} ${3:style="background-color: #e3f2fd;"}">
-                ${4:...}
-              </nav>$0
-    '''

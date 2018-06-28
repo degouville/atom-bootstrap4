@@ -1,4 +1,0 @@
-'.text.html':
-  '...':
-    prefix: '...'
-    body: '<button type="button" class="btn btn-lg btn-danger bd-popover" data-toggle="popover" title="${2:Popover title}" data-content="${3:And here\'s some amazing content. It\'s very engaging. Right?}">${1:Click to toggle popover}</button>$0'

@@ -1,8 +1,0 @@
-'.text.html':
-  'b4:grid:col_xl':
-    prefix: 'b4:grid:col_xl'
-    body: '''
-      <div class="col-xl-${1:1-12|auto}">
-        	$2
-      </div>$0
-    '''

@@ -1,9 +1,0 @@
-'.text.html':
-  'typography:blockquotes':
-    prefix: 'typography:blockquotes'
-    body: '''
-      <blockquote class="blockquote">
-      	<p>${1:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.}</p>
-      	<footer>${2:Someone famous in} <cite title="${3:Source Title}">${3:Source Title}</cite></footer>
-      </blockquote>$0
-    '''

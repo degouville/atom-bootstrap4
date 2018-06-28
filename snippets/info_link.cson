@@ -1,8 +1,0 @@
-'.text.html':
-  'alert:info:l':
-    prefix: 'alert:info:l'
-    body: '''
-      <div class="alert alert-info" role="alert">
-      	${1:<strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.}
-      </div>$0
-    '''

@@ -1,4 +1,0 @@
-'.text.html':
-  'b4:utilities:visible':
-    prefix: 'b4:utilities:visible'
-    body: '<div class="${1:in}visible">...</div>$0'

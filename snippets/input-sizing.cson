@@ -1,4 +1,0 @@
-'.text.html':
-  'form:input:sizing':
-    prefix: 'form:input:sizing'
-    body: '<input class="form-control {2:form-control-{1:sm|lg}}" type="text" placeholder="${3:.input...}">$0'

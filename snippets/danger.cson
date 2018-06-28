@@ -1,8 +1,0 @@
-'.text.html':
-  'alert:danger':
-    prefix: 'alert:danger'
-    body: '''
-      <div class="alert alert-warning" role="alert">
-          ${1:<strong>Warning!</strong> Better check yourself, you're not looking too good.}
-      </div>$0
-    '''
