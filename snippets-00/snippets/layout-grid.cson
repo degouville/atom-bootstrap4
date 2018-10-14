@@ -1,0 +1,326 @@
+'.text.html': # Work only with HTML
+
+
+  # Containers
+  'Container - Bootstrap 4':
+    'prefix': 'con'
+    'body': """
+      <div class="container">
+        $1
+      </div>
+    """
+
+  'Container Fluid (full width) - Bootstrap 4':
+    'prefix': 'conf'
+    'body': """
+      <div class="container-fluid">
+        $1
+      </div>
+    """
+
+
+  # Grid
+  'Row - Bootstrap 4':
+    'prefix': 'row'
+    'body': """
+      <div class="row">
+        $1
+      </div>
+    """
+
+  # CRC
+  'Simple grid - Bootstrap 4':
+    'prefix': 'grid'
+    'body': """
+      <div class="container">
+        <div class="row">${4:
+
+          <div class="col-${1:xs|sm|md|lg|xl}-${2:1-12}">
+            $3
+          </div>
+
+        }</div>
+      </div>
+
+    """
+
+  '3 Columns grid - Bootstrap 4':
+    'prefix': '3col'
+    'body': """
+      <div class="container">
+        <div class="row">
+          <div class="${1:col-md-4}">
+            ${2:One of three columns}
+          </div>
+          <div class="${1:col-md-4}">
+            ${2:One of three columns}
+          </div>
+          <div class="${1:col-md-4}">
+            ${2:One of three columns}
+          </div>
+        </div>
+      </div>
+    """
+
+  '3 Responsive Columns grid - Bootstrap 4':
+    'prefix': '3colr'
+    'body': """
+      <div class="container">
+        <div class="row">
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-4}">
+            ${4:One of three columns}
+          </div>
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-4}">
+            ${4:One of three columns}
+          </div>
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-4}">
+            ${4:One of three columns}
+          </div>
+        </div>
+      </div>
+    """
+
+  '2 Columns grid - Bootstrap 4':
+    'prefix': '2col'
+    'body': """
+      <div class="container">
+        <div class="row">
+          <div class="${1:col-md-6}">
+            ${2:One of two columns}
+          </div>
+          <div class="${1:col-md-6}">
+            ${2:One of two columns}
+          </div>
+        </div>
+      </div>
+    """
+
+  '2 Responsive Columns grid - Bootstrap 4':
+    'prefix': '2colr'
+    'body': """
+      <div class="container">
+        <div class="row">
+          <div class="${1:col-xs-12} ${2:col-md-6}">
+            ${3:One of two columns}
+          </div>
+          <div class="${1:col-xs-12} ${2:col-md-6}">
+            ${3:One of two columns}
+          </div>
+        </div>
+      </div>
+    """
+
+  '4 Columns grid - Bootstrap 4':
+    'prefix': '4col'
+    'body': """
+      <div class="container">
+        <div class="row">
+          <div class="${1:col-md-3}">
+            ${2:One of four columns}
+          </div>
+          <div class="${1:col-md-3}">
+            ${2:One of four columns}
+          </div>
+          <div class="${1:col-md-3}">
+            ${2:One of four columns}
+          </div>
+          <div class="${1:col-md-3}">
+            ${2:One of four columns}
+          </div>
+        </div>
+      </div>
+    """
+
+  '4 Responsive Columns grid - Bootstrap 4':
+    'prefix': '4colr'
+    'body': """
+      <div class="container">
+        <div class="row">
+          <div class="${1:col-xs-6} ${2:col-md-3}">
+            ${3:One of four columns}
+          </div>
+          <div class="${1:col-xs-6} ${2:col-md-3}">
+            ${3:One of four columns}
+          </div>
+          <div class="${1:col-xs-6} ${2:col-md-3}">
+            ${3:One of four columns}
+          </div>
+          <div class="${1:col-xs-6} ${2:col-md-3}">
+            ${3:One of four columns}
+          </div>
+        </div>
+      </div>
+    """
+
+  '6 Columns grid - Bootstrap 4':
+    'prefix': '6col'
+    'body': """
+      <div class="container">
+        <div class="row">
+          <div class="${1:col-md-2}">
+            ${2:One of six columns}
+          </div>
+          <div class="${1:col-md-2}">
+            ${2:One of six columns}
+          </div>
+          <div class="${1:col-md-2}">
+            ${2:One of six columns}
+          </div>
+          <div class="${1:col-md-2}">
+            ${2:One of six columns}
+          </div>
+          <div class="${1:col-md-2}">
+            ${2:One of six columns}
+          </div>
+          <div class="${1:col-md-2}">
+            ${2:One of six columns}
+          </div>
+        </div>
+      </div>
+    """
+
+  '12 Columns grid - Bootstrap 4':
+    'prefix': '12col'
+    'body': """
+      <div class="container">
+        <div class="row">
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
+          </div>
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
+          </div>
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
+          </div>
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
+          </div>
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
+          </div>
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
+          </div>
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
+          </div>
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
+          </div>
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
+          </div>
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
+          </div>
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
+          </div>
+          <div class="${1:col-md-1}">
+            ${2:One of twelve columns}
+          </div>
+        </div>
+      </div>
+    """
+
+  '12 Responsive Columns grid - Bootstrap 4':
+    'prefix': '12colr'
+    'body': """
+      <div class="container">
+        <div class="row">
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
+          </div>
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
+          </div>
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
+          </div>
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
+          </div>
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
+          </div>
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
+          </div>
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
+          </div>
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
+          </div>
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
+          </div>
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
+          </div>
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
+          </div>
+          <div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+            ${5:One of twelve columns}
+          </div>
+        </div>
+      </div>
+    """
+
+
+  # Columns
+  'Column (full option)':
+    'prefix': 'col'
+    'body': """
+    <div class="col-${1:xs|sm|md|lg|xl}-${2:1-12}">
+      $3
+    </div>
+    """
+
+  'Column Extra Small':
+    'prefix': 'col-xs'
+    'body': """
+    <div class="col-xs-${1:1-12}">
+      $2
+    </div>
+    """
+
+  'Column Small':
+    'prefix': 'col-sm'
+    'body': """
+    <div class="col-sm-${1:1-12}">
+      $2
+    </div>
+    """
+
+  'Column Medium':
+    'prefix': 'col-md'
+    'body': """
+    <div class="col-md-${1:1-12}">
+      $2
+    </div>
+    """
+
+  'Column Large':
+    'prefix': 'col-lg'
+    'body': """
+    <div class="col-lg-${1:1-12}">
+      $2
+    </div>
+    """
+
+  'Column Extra Large':
+    'prefix': 'col-xl'
+    'body': """
+    <div class="col-xl-${1:1-12}">
+      $2
+    </div>
+    """
+
+
+  # Clearfix
+  'Clearfix for Grid system':
+    'prefix': 'colcf'
+    'body': '<div class="clearfix"></div>'
