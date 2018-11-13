@@ -1,8 +1,0 @@
-'.text.html':
-  'b4:template:local_js':
-    prefix: 'b4:template:local_js'
-    body: '''
-      <!-- jQuery first, then Bootstrap JS. -->
-      <script src="$1/js/jquery.min.js"></script>
-      <script src="$1/js/bootstrap.js"></script>$0
-    '''

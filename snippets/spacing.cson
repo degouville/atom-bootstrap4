@@ -1,8 +1,0 @@
-'.text.html':
-  'b4:utilities:spacing':
-    prefix: 'b4:utilities:spacing'
-    body: '''
-      <div class="${1:m|p}${2:t|b|l|r|x|y}-${3:0-5}">
-      	  ${4:...}
-      </div>$0
-    '''

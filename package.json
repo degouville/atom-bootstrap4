@@ -2,39 +2,39 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-117728-19373-1xa59y6.5neawtgldi/package.tgz",
+        "raw": "/tmp/d-118527-31504-12rz.t3qpwx9a4i/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-117728-19373-1xa59y6.5neawtgldi/package.tgz",
-        "spec": "/tmp/d-117728-19373-1xa59y6.5neawtgldi/package.tgz",
+        "rawSpec": "/tmp/d-118527-31504-12rz.t3qpwx9a4i/package.tgz",
+        "spec": "/tmp/d-118527-31504-12rz.t3qpwx9a4i/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-117728-19373-gvrk5b.w00qc9pb9"
+      "/tmp/apm-install-dir-118527-31504-14xb1en.ghnkk8d7vi"
     ]
   ],
-  "_from": "../d-117728-19373-1xa59y6.5neawtgldi/package.tgz",
+  "_from": "../d-118527-31504-12rz.t3qpwx9a4i/package.tgz",
   "_id": "atom-bootstrap4@1.4.0",
   "_inCache": true,
   "_location": "/atom-bootstrap4",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-117728-19373-1xa59y6.5neawtgldi/package.tgz",
+    "raw": "/tmp/d-118527-31504-12rz.t3qpwx9a4i/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-117728-19373-1xa59y6.5neawtgldi/package.tgz",
-    "spec": "/tmp/d-117728-19373-1xa59y6.5neawtgldi/package.tgz",
+    "rawSpec": "/tmp/d-118527-31504-12rz.t3qpwx9a4i/package.tgz",
+    "spec": "/tmp/d-118527-31504-12rz.t3qpwx9a4i/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117728-19373-1xa59y6.5neawtgldi/package.tgz",
+  "_resolved": "file:../d-118527-31504-12rz.t3qpwx9a4i/package.tgz",
   "_shasum": "b6ec2653ed4ccf56163e476dc8f8bd1c39a55617",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-117728-19373-1xa59y6.5neawtgldi/package.tgz",
-  "_where": "/tmp/apm-install-dir-117728-19373-gvrk5b.w00qc9pb9",
+  "_spec": "/tmp/d-118527-31504-12rz.t3qpwx9a4i/package.tgz",
+  "_where": "/tmp/apm-install-dir-118527-31504-14xb1en.ghnkk8d7vi",
   "bugs": {
     "url": "https://github.com/mdegoo/atom-bootstrap4/issues"
   },
@@ -66,15 +66,5 @@
     "type": "git",
     "url": "git+https://github.com/mdegoo/atom-bootstrap4.git"
   },
-  "version": "1.4.0",
-  "_atomModuleCache": {
-    "version": 1,
-    "dependencies": [],
-    "extensions": {
-      ".json": [
-        "package.json"
-      ]
-    },
-    "folders": []
-  }
+  "version": "1.4.0"
 }

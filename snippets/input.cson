@@ -1,4 +1,0 @@
-'.text.html':
-  'button:input':
-    prefix: 'button:input'
-    body: '<input class="btn btn-primary" type="button" value="$2">$0'

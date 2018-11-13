@@ -1,9 +1,0 @@
-'.text.html':
-  'form:file-browser':
-    prefix: 'form:file-browser'
-    body: '''
-      <label class="file">
-      	<input type="file" id="file">
-      	<span class="file-custom"></span>
-      </label>$0
-    '''

@@ -1,8 +1,0 @@
-'.text.html':
-  'list:context:a':
-    prefix: 'list:context:a'
-    body: '''
-      <div class="list-group">
-      			<a href="#" class="list-group-item list-group-item-${1:success|info|warning|danger}">${2:Dapibus ac facilisis in}</a>
-      		</div>$0
-    '''

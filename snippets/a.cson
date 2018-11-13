@@ -1,4 +1,0 @@
-'.text.html':
-  'button:a':
-    prefix: 'button:a'
-    body: '<a class="btn btn-primary" href="${1:#}" role="button">$2</a>$0'

@@ -1,4 +1,0 @@
-'.text.html':
-  'form:readonly':
-    prefix: 'form:readonly'
-    body: '<input class="form-control" type="text" placeholder="${10:Readonly input here…" readonl}y>$0'
