@@ -1,4 +1,4 @@
-# DEPRECATED | Bootstrap 4 Support for Atom
+# Bootstrap 4 Support for Atom
 
 Provides [Bootstrap 4][1] classes and HTML tags with autocompletion features.
 
